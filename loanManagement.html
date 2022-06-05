@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About Us</title>
+    <title>Loan Management</title>
 
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -26,7 +26,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-          <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -321,65 +321,168 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">About Us</h1>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12">
-                            <div class="card shadow mb-4  ">
-                               <!-- Card Body -->
-                                <div class="card-body addServ_card">
-                                   <div class="addSrv_div">
-                                       <div class="row">
-                                           <div class="col-lg-8 offset-2">
-                                               <div class="addprvcy mb-4">
-                                                   <a href="editUserDetails.html"><i class="fas fa-edit fa-sm" aria-hidden="true"></i></a>  
-                                                                                               </div>
-                                                <div class="form-group">
-                                                    <label for ="">Description:</label>
-                                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis faucibus imperdiet. Morbi gravida porta accumsan. Nunc malesuada eget elit ac interdum. Nullam dignissim mauris at orci malesuada, vel congue mauris malesuada. Sed egestas eros augue, vel placerat dolor blandit at. Morbi eget augue eget nunc euismod molestie vel sLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis faucibus imperdiet. Morbi gravida porta accumsan. Nunc malesuada eget elit ac interdum. Nullam dignissim mauris at orci malesuada, vel congue mauris malesuada. Sed egestas eros augue, vel placerat dolor blandit at. Morbi eget augue eget nunc euismod molestie vel s</textarea>
+                   <h1 class="h3 mb-2 text-gray-800">Loan Management</h1>
+                    
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="mb-4 text-right addmngr">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>New Requests</option>
+                                  <option>Approved</option>
+                                </select>
+                                                            
+                            </div>
+                            
+                            <div class="table-responsive manager_tbl">
+                                <table class="table table-bordered user_table" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>S No.</th>
+                                            <th>Name</th>
+                                            <th>Phone number</th>
+                                            <th>Requested</th>
+                                            <th>Loan Type</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>15 min ago</td>
+                                            <td>Invoice Discounting</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="loanDetail.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-pen"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-trash"></i>
+                                                      </span>
+                                                    </a>     
                                                 </div>
-
-                                                <div class="input_fields_wrap">
-                                                    <div class="row">
-                                                        <div class="col-lg-9">
-
-                                                            <div> <input type="text" name="mytext[]" class="form-control form-control-user mb-4" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Add Title"></div>   
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                             <a href="addService.html" class="btn btn_clr btn-user addManager add_field_button">
-                                                         Add Service
-                                                        </a>  
-                                                        </div>
-                                                    </div> 
+                                            </td>   
+                                        </tr>
+                                      <tr>
+                                            <td>2</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>15 min ago</td>
+                                            <td>Invoice Discounting</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="loanDetail.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-pen"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-trash"></i>
+                                                      </span>
+                                                    </a>     
                                                 </div>
-                                                 <textarea name="editor1"></textarea>
-                                                
-                                                
-                                                <div class="mt-3 text-center udtTC">
-                                                     <a href="addService.html" class="btn btn_clr btn-user addManager">
-                                                     Add Links
-                                                    </a>  
-                                                    <a href="addService.html" class="btn btn_clr btn-user addManager ml-3">
-                                                     Update
-                                                    </a>   
-                                                </div>     
-                                           </div>
-                                       </div>
-                                   </div>
-                                </div>
+                                            </td>   
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>15 min ago</td>
+                                            <td>Invoice Discounting</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="loanDetail.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-pen"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-trash"></i>
+                                                      </span>
+                                                    </a>     
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                       <tr>
+                                            <td>4</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>15 min ago</td>
+                                            <td>Invoice Discounting</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="loanDetail.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-pen"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-trash"></i>
+                                                      </span>
+                                                    </a>     
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>15 min ago</td>
+                                            <td>Invoice Discounting</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="loanDetail.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-pen"></i>
+                                                      </span>
+                                                    </a>
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-trash"></i>
+                                                      </span>
+                                                    </a>     
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
+                   
 
-                
-
-                    
-
-                        <!-- Area Chart -->
-                        
-                
                 </div>
                 <!-- /.container-fluid -->
 
@@ -390,7 +493,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy;  HCH Financial Services 2021</span>
+                        <span>Copyright &copy; HCH Financial Services 2021</span>
                     </div>
                 </div>
             </footer>
@@ -435,33 +538,18 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/custom.js"></script>
-    <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
-     <script>
-            CKEDITOR.replace( 'editor1' );
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-    var max_fields      = 10; //maximum input boxes allowed
-    var wrapper         = $(".input_fields_wrap"); //Fields wrapper
-    var add_button      = $(".add_field_button"); //Add button ID
-    
-    var x = 1; //initlal text box count
-    $(add_button).click(function(e){ //on add input button click
-        e.preventDefault();
-        if(x < max_fields){ //max input box allowed
-            x++; //text box increment
-            $(wrapper).append('<div><input type="text" name="mytext[]" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder=""/><a href="#" class="remove_field">Remove</a></div>'); //add input box
-        }
-    });
-    
-    $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-        e.preventDefault(); $(this).parent('div').remove(); x--;
-    })
-    });
-    </script>
+    <script src="js/sb-admin-2.min.js"></script>
+
     <!-- Page level plugins -->
-    
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
+
+    <!-- Page level plugins -->
+  
+
 </body>
 
 </html>

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About Us</title>
+    <title>Consultation Details</title>
 
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -39,7 +39,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="managersManagement.html">
+                <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
                 </a>
@@ -91,10 +91,26 @@
                 </a>
             </li>
            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-fw fa-vector-square"></i>
+                    <span>Content Management</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-fw fa-file-contract"></i>
+                    <span>Reports Management</span>
+                </a>
+            </li>
+
+         
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#repoMgmt"
                     aria-expanded="true" aria-controls="repoMgmt">
                     <i class="fas fa-fw fa-file-contract"></i>
-                    <span>Content Management</span>
+                    <span>General Management</span>
                 </a>
                 <div id="repoMgmt" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
@@ -106,17 +122,6 @@
                     </div>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="reportsManagement.html">
-                    <i class="fas fa-fw fa-file-contract"></i>
-                    <span>Reports Management</span>
-                </a>
-            </li>
-
-         
-
-            <!-- Nav Item - Utilities Collapse Menu -->
-         
 
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
@@ -177,7 +182,7 @@
                             <!-- Dropdown - Alerts -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="alertsDropdown">
-                                <h6 class="dropdown-header">
+                                <h6 class="dropdown-header ">
                                     Alerts Center
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -322,64 +327,148 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">About Us</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Consultation Details</h1>
                     </div>
 
                     <div class="row">
                         <div class="col-xl-12 col-lg-12">
                             <div class="card shadow mb-4  ">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between prsl_div">
+                                    <h6 class="m-0 font-weight-bold txt_thmColor">Consultation Details</h6>
+                                    <a href="editConsultation.html"><i class="fas fa-edit fa-sm" aria-hidden="true"></i></a>
+                                </div>
                                <!-- Card Body -->
-                                <div class="card-body addServ_card">
-                                   <div class="addSrv_div">
-                                       <div class="row">
-                                           <div class="col-lg-8 offset-2">
-                                               <div class="addprvcy mb-4">
-                                                   <a href="editUserDetails.html"><i class="fas fa-edit fa-sm" aria-hidden="true"></i></a>  
-                                                                                               </div>
-                                                <div class="form-group">
-                                                    <label for ="">Description:</label>
-                                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis faucibus imperdiet. Morbi gravida porta accumsan. Nunc malesuada eget elit ac interdum. Nullam dignissim mauris at orci malesuada, vel congue mauris malesuada. Sed egestas eros augue, vel placerat dolor blandit at. Morbi eget augue eget nunc euismod molestie vel sLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis faucibus imperdiet. Morbi gravida porta accumsan. Nunc malesuada eget elit ac interdum. Nullam dignissim mauris at orci malesuada, vel congue mauris malesuada. Sed egestas eros augue, vel placerat dolor blandit at. Morbi eget augue eget nunc euismod molestie vel s</textarea>
-                                                </div>
-
-                                                <div class="input_fields_wrap">
-                                                    <div class="row">
-                                                        <div class="col-lg-9">
-
-                                                            <div> <input type="text" name="mytext[]" class="form-control form-control-user mb-4" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Add Title"></div>   
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                             <a href="addService.html" class="btn btn_clr btn-user addManager add_field_button">
-                                                         Add Service
-                                                        </a>  
-                                                        </div>
-                                                    </div> 
-                                                </div>
-                                                 <textarea name="editor1"></textarea>
-                                                
-                                                
-                                                <div class="mt-3 text-center udtTC">
-                                                     <a href="addService.html" class="btn btn_clr btn-user addManager">
-                                                     Add Links
-                                                    </a>  
-                                                    <a href="addService.html" class="btn btn_clr btn-user addManager ml-3">
-                                                     Update
-                                                    </a>   
-                                                </div>     
-                                           </div>
-                                       </div>
-                                   </div>
+                                <div class="card-body prfl_card">
+                                    <div class="consul_div1">
+                                        <div class="consult_dtl">   
+                                            <div class="cnslt_feilds">
+                                                <div class="row">
+                                                    <div class="col-lg-10 offset-1">
+                                                        <div class="prsl_content mb-4">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Customer Name</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                        placeholder="Kalvin" readonly>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                	<div class="form-group">
+                                                                        <label for="exampleInputEmail1">Call on</label>
+                                                                        <input type="email" class="form-control form-control-user"
+                                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                        placeholder="27/05/2021" readonly>
+                                                                    </div>   
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Service Type</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                            id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                            placeholder="Invoice Discounting" readonly>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Service Details</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                            id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                            placeholder="lorem ipsum dolor sit amet, consectetur adipi" readonly>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                   <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Consultation detail</label>
+                                                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" readonly>lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum sapien nulla, at aliquam est lobortis a. Vestibulum varius maximus lorem, eget scelerisque nisi consequat </textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                    </div>    
+                                                </div>  
+                                            </div>   
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                
-
-                    
+                     <div class="row">
 
                         <!-- Area Chart -->
-                        
-                
+                        <div class="col-xl-12 col-lg-12">
+
+                            <div class="card shadow mb-4 ">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold txt_thmColor">Profile of Manager who Answered</h6>
+                                    <a href="addSubAdmin.html" class="btn btn_clr btn-user addManager">
+                                    View Profile
+                                </a>
+                                </div>
+                               <!-- Card Body -->
+                                <div class="card-body prfl_card">
+                                    <div class="consul_div2 mb-4">                       
+                                        <div class="mngr_dtl">
+                                            <div class="row">
+                                            	<div class="col-lg-10 offset-1">
+                                            		<div class="row">
+                                            			<div class="col-lg-6">
+		                                                    <div class="form-group">
+		                                                        <label for="exampleInputEmail1">First Name</label>
+		                                                        <input type="text" class="form-control form-control-user"
+		                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+		                                                        placeholder="Kalvin" readonly>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="col-lg-6">
+		                                                	<div class="form-group">
+		                                                        <label for="exampleInputEmail1">Last Name</label>
+		                                                        <input type="email" class="form-control form-control-user"
+		                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+		                                                        placeholder="Marry" readonly>
+		                                                    </div>   
+			                                            </div>
+			                                        </div> 
+		                                            <div class="row">
+		                                                <div class="col-lg-6">
+		                                                    <div class="form-group">
+		                                                        <label for="exampleInputEmail1">Email Address</label>
+		                                                        <input type="email" class="form-control form-control-user"
+		                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+		                                                        placeholder="Kalvin345@gmail.com" readonly>
+		                                                    </div>
+		                                                </div>
+		                                                <div class="col-lg-6">
+		                                                	<div class="form-group">
+		                                                        <label for="exampleInputEmail1">Phone Number</label>
+		                                                        <input type="text" class="form-control form-control-user"
+		                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+		                                                        placeholder="9876543210" readonly>
+		                                                	</div>   
+                                            			</div>
+                                        			</div>  
+                                        		</div>
+                                        	</div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="Managers.html" class="btn btn_clr btn-user addManager">
+                            Assign to a Manager
+                        </a>   
+                    </div>
+                    
                 </div>
                 <!-- /.container-fluid -->
 
@@ -436,30 +525,7 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/custom.js"></script>
-    <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
-     <script>
-            CKEDITOR.replace( 'editor1' );
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-    var max_fields      = 10; //maximum input boxes allowed
-    var wrapper         = $(".input_fields_wrap"); //Fields wrapper
-    var add_button      = $(".add_field_button"); //Add button ID
-    
-    var x = 1; //initlal text box count
-    $(add_button).click(function(e){ //on add input button click
-        e.preventDefault();
-        if(x < max_fields){ //max input box allowed
-            x++; //text box increment
-            $(wrapper).append('<div><input type="text" name="mytext[]" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder=""/><a href="#" class="remove_field">Remove</a></div>'); //add input box
-        }
-    });
-    
-    $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-        e.preventDefault(); $(this).parent('div').remove(); x--;
-    })
-    });
-    </script>
+
     <!-- Page level plugins -->
     
 </body>

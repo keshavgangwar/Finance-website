@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About Us</title>
+    <title>Add a New Manager</title>
 
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -26,7 +26,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-          <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
+         <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -322,64 +322,219 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">About Us</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Add a New Manager</h1>
                     </div>
 
                     <div class="row">
                         <div class="col-xl-12 col-lg-12">
                             <div class="card shadow mb-4  ">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between prsl_div">
+                                    <h6 class="m-0 font-weight-bold txt_thmColor">Personal Details</h6>
+                                     
+                                </div>
                                <!-- Card Body -->
-                                <div class="card-body addServ_card">
-                                   <div class="addSrv_div">
-                                       <div class="row">
-                                           <div class="col-lg-8 offset-2">
-                                               <div class="addprvcy mb-4">
-                                                   <a href="editUserDetails.html"><i class="fas fa-edit fa-sm" aria-hidden="true"></i></a>  
-                                                                                               </div>
-                                                <div class="form-group">
-                                                    <label for ="">Description:</label>
-                                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis faucibus imperdiet. Morbi gravida porta accumsan. Nunc malesuada eget elit ac interdum. Nullam dignissim mauris at orci malesuada, vel congue mauris malesuada. Sed egestas eros augue, vel placerat dolor blandit at. Morbi eget augue eget nunc euismod molestie vel sLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis faucibus imperdiet. Morbi gravida porta accumsan. Nunc malesuada eget elit ac interdum. Nullam dignissim mauris at orci malesuada, vel congue mauris malesuada. Sed egestas eros augue, vel placerat dolor blandit at. Morbi eget augue eget nunc euismod molestie vel s</textarea>
-                                                </div>
-
-                                                <div class="input_fields_wrap">
-                                                    <div class="row">
-                                                        <div class="col-lg-9">
-
-                                                            <div> <input type="text" name="mytext[]" class="form-control form-control-user mb-4" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Add Title"></div>   
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                             <a href="addService.html" class="btn btn_clr btn-user addManager add_field_button">
-                                                         Add Service
-                                                        </a>  
-                                                        </div>
-                                                    </div> 
-                                                </div>
-                                                 <textarea name="editor1"></textarea>
-                                                
-                                                
-                                                <div class="mt-3 text-center udtTC">
-                                                     <a href="addService.html" class="btn btn_clr btn-user addManager">
-                                                     Add Links
-                                                    </a>  
-                                                    <a href="addService.html" class="btn btn_clr btn-user addManager ml-3">
-                                                     Update
-                                                    </a>   
-                                                </div>     
-                                           </div>
-                                       </div>
-                                   </div>
+                                <div class="card-body prfl_card">
+                                    <div class="prfl_div">
+                                        <div class="prfl_imgDiv text-center mb-4">
+                                            <img src="img/cleint1.jpeg">
+                                        </div>
+                                        <div class="edt_icons text-center mb-4">
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
+                                        <div class="persl_div">   
+                                            <div class="prsl_feilds">
+                                                <div class="row">
+                                                    <div class="col-lg-10 offset-1">
+                                                        <div class="prsl_content mb-4">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">First Name</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                        placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Last Name</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                            id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                            placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Email Address</label>
+                                                                        <input type="email" class="form-control form-control-user"
+                                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                        placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Phone Number</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                            id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                            placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Country</label>
+                                                                        <input type="email" class="form-control form-control-user"
+                                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                        placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Street</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                            id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                            placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">City</label>
+                                                                        <input type="email" class="form-control form-control-user"
+                                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                        placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">State</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                            id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                            placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1">Zip code</label>
+                                                                        <input type="text" class="form-control form-control-user"
+                                                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                                                        placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="docx_div">
+                                                                <div class="docx_content">
+                                                                    <label for="exampleInputEmail1">ID documents:</label>
+                                                                    <!-- <div class="docx ml-3">
+                                                                        <img src="img/rr1.jpg" class="mr-4">
+                                                                        <img src="img/financial-services (1).jpg" class="mr-4">
+                                                                        <img src="img/rr1.jpg">
+                                                                    </div> -->
+                                                                    <input type="file" id="myfile" name="myfile" class="ml-3 ">  
+                                                                </div>  
+                                                            </div> 
+                                                        </div> 
+                                                    </div>    
+                                                </div>  
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                
+                    <div class="modal fade" id="addTask" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Task Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-user"
+                                    id="exampleInputEmail" aria-describedby="emailHelp"
+                                    placeholder="Title">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Description</textarea>
+                            </div>
 
-                    
+                          </div>
+                          <div class="modal-footer">
+                                <a href="login.html" class="btn btn_clr btn-user addManager">
+                                     Assign
+                                </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                     <div class="row">
 
                         <!-- Area Chart -->
-                        
-                
+                        <div class="col-xl-12 col-lg-12">
+
+                            <div class="card shadow mb-4 ">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold txt_thmColor">Service Handling</h6>
+
+                                </div>
+                               <!-- Card Body -->
+                                <div class="card-body prfl_card">
+                                    <div class="servs_handling mb-4">
+                                    <div class="addSrv"> 
+										    <select class="form-control" id="exampleFormControlSelect1">
+										      <option>Invoice Discounting</option>
+										      <option>LPO Financing</option>
+										      <option>Contract Financing</option>
+										      <option>Import Trade Financing</option>
+										      <option>Consignment Stock Financing</option>
+										       <option>Personal Loans</option>
+										    </select>
+										
+										<a href="#" class="btn btn_clr btn-user ml-3">
+                                            Add Service
+                                        </a>
+                                    </div>                       
+                                        <div class="servs_contnt">
+                                            <div class="servs_lst">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">Invoice Discounting<a href = "#"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a>
+                                                    </li>
+                                                    <li class="list-group-item">LPO Financing<a href = "#"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a></li>
+                                                    <li class="list-group-item">Contract Financing<a href = "#"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a></li>
+                                                    <li class="list-group-item">Import Trade Financing<a href = "#"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a></li>
+                                                    <li class="list-group-item">Consignment Stock Financing<a href = "#"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a></li>
+                                                    <li class="list-group-item">Performance & Advance Payment Guarantee Finance<a href = "#"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a></li>
+                                                    <li class="list-group-item">Personal Loans<a href = "#"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>    
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="text-center mb-4">
+                                    <a href="managersManagement.html" class="btn btn_clr btn-user">
+                                        Activate Account & Generate Credentials
+                                    </a>
+                                </div>
+                                <div class="form-group form-check text-center">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Share Details Via E-mail</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- /.container-fluid -->
 
@@ -436,30 +591,7 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/custom.js"></script>
-    <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
-     <script>
-            CKEDITOR.replace( 'editor1' );
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-    var max_fields      = 10; //maximum input boxes allowed
-    var wrapper         = $(".input_fields_wrap"); //Fields wrapper
-    var add_button      = $(".add_field_button"); //Add button ID
-    
-    var x = 1; //initlal text box count
-    $(add_button).click(function(e){ //on add input button click
-        e.preventDefault();
-        if(x < max_fields){ //max input box allowed
-            x++; //text box increment
-            $(wrapper).append('<div><input type="text" name="mytext[]" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder=""/><a href="#" class="remove_field">Remove</a></div>'); //add input box
-        }
-    });
-    
-    $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-        e.preventDefault(); $(this).parent('div').remove(); x--;
-    })
-    });
-    </script>
+
     <!-- Page level plugins -->
     
 </body>
