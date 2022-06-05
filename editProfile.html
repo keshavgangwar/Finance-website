@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit My Profile</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css "/>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+   <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<div class="top-header">
+		<div class="custom_container">
+			<div class="row">
+				<div class="social-icon text-left col-sm-5">
+					<ul class="list-inline">
+						<li class="list-inline-item">
+							<a class="nav-link" routerLink="/homepage">PROVIDING A LENDING HAND FOR YOUR BUSINESS</a>
+						</li>					
+					</ul>
+				</div>
+				<div class="top-logins text-right col-sm-7">
+					<ul class="list-inline">
+						<li class="active list-inline-item">
+							<span>CALL US AT + 23- 242342543</span>
+						</li>
+						<li class=" list-inline-item">
+							<span>MON TO FRI 10 :00AM-06:00 PM</span>
+						</li> 
+						<li class=" list-inline-item">
+							<span>GET STARTED TODAY</span>
+						</li>                
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header class="header_home">
+		<div class="custom_container">
+
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="#">
+					<img src="images/logo1.png" class="img-fluid">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto nav_div dashboard_ul">
+						<li class="nav-item active">
+							<a class="nav-link" routerLink="/homepage">About Us</a>
+						</li>
+						<li class="nav-item">
+							<div class="dropdown show">
+							<a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" routerLink="/exams">Our Services</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							</div>
+							</div>
+						</li>
+						<li class="nav-item mt-2 text-center d-flex">
+              <span class="">
+                        <img src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-3/img/user-13.005c80e1.jpg" class="img-fluid testimonial-img">
+                      </span><br>
+                    <h6 class="user_name">Marry Dactyl</h6>
+            </li>
+					</ul>
+					
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	
+	<!-- header -->
+
+  <div class="wrapper">
+    <div class="sidebar">
+        <ul class="sidebar_ul">
+            <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+             <li><a href="notifications.html"><i class="fas fa-bell"></i>Notifications(5)</a></li>
+            <li><a href="requested Loans.html"><i class="fa fa-address-card"></i>Loan Request</a></li>
+            <li><a href="ongoingLoans.html"><i class="fa fa-credit-card"></i>Ongoing Loans</a></li>
+            <li><a href="#"><i class="fas fa-sack-dollar"></i>Make Payments</a></li>
+            <li><a href="Invoices.html"><i class="fas fa-sticky-note"></i>Invoices</a></li>
+            <li><a href="settings.html"><i class="fa fa-cogs"></i>Settings</a></li>
+            <li><a href="help&Support.html"><i class="fa fa-info-circle"></i>Help & Support</a></li>
+            <li><a href="signIn.html"><i class="fa fa-sign-out"></i>Log Out</a></li>
+        </ul>
+        <div class="social_media"> <a href="#"><i class="fa fa-facebook-f"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> </div>
+    </div>
+
+    <div class="main_content leads_section">
+        <div class="inner_content">
+	        <div class="leads_info edtprfl">
+	            <div class="card">
+	              <h4 class="mb-4">Edit My Profile</h4>
+	                <div class="upload_div mb-4">
+		                <div class="text-center mb-2">
+		                    <img src="images/bnr1.jpg" class="upload-img">
+		                </div>
+		                <div class=" text-center upload_btn">
+		                  <button type="button" class="btn start_btn apply_btn">Upload Image</button>
+		                   <input type="file" id="myFile" name="filename">
+		                </div>
+	                </div>    
+	                <div class="leadinfo_div divs_margin pflDiv">
+	                    <div class="row">
+		                    <div class="col-md-6">
+		                      <label for="exampleFormControlInput1">First Name</label>
+		                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Kalvin">
+		                    </div>
+		                    <div class="col-md-6">
+		                      <label for="exampleFormControlInput1">Last Name</label>
+		                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Merry">
+		                    </div>
+	                    </div>
+	                    <div class="row mt-4">
+	                        <div class="col-md-6">
+		                        <label for="exampleFormControlInput1">Email Address</label>
+		                        <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="merry123@gmail.com">
+		                    </div>
+	                        <div class="col-md-6">
+		                        <label for="exampleFormControlInput1">Company Name</label>
+		                        <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+	                        </div>
+	                    </div>
+	                    <div class="row mt-4">
+		                    <div class="col-md-6">
+		                      <label for="exampleFormControlInput1">Phone Number</label>
+		                      <input type="number" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="97878567655">
+		                    </div>
+		                    <div class="col-md-6">
+		                      <label for="exampleFormControlInput1">Country</label>
+		                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+		                    </div>
+	                  	</div>
+	                  	<div class="row mt-4">
+		                    <div class="col-md-6 input_padding">
+		                      <label for="exampleFormControlInput1">Street</label>
+		                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+		                    </div>
+		                    <div class="col-md-6 input_padding">
+		                      <label for="exampleFormControlInput1">City</label>
+		                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+		                    </div>
+	                    </div>
+	                    <div class="row mt-4">
+		                    <div class="col-md-6 input_padding">
+		                      <label for="exampleFormControlInput1">State</label>
+		                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+		                    </div>
+		                    <div class="col-md-6 input_padding">
+		                      <label for="exampleFormControlInput1">Zip Code</label>
+		                      <input type="number" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value=0878778>
+		                    </div>
+	                    </div>
+	                </div>
+	              
+	                <div class="address_div divs_margin">
+	                	<h4 class="mb-4">Business Details</h4>
+		                <div class="address_content">
+		                  	<div class="row">
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Legal Business Name</label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Date</label>
+			                      <input id="datepicker" placeholder="dd/mm/yyyy" />
+			                    </div>
+		                  	</div>
+		                  	<div class="row">
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Business Type</label>
+			                      <select class="form-control" id="exampleFormControlSelect1">
+			                        <option>Option1</option>
+			                        <option>Option2</option>
+			                        <option>Option3</option>
+			                        <option>Option4</option>
+			                      </select>
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Business TIN Number</label>
+			                       <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Business Registration Number.</label>
+			                       <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Business Phone Number</label>
+			                       <input type="number" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Business Email Address*</label>
+			                       <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Physical Address of the Business*</label>
+			                       <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+		                  	</div>
+
+		                   	<div class="row">
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Business sector*</label>
+			                      <select class="form-control" id="exampleFormControlSelect1">
+			                        <option>Option1</option>
+			                        <option>Option2</option>
+			                        <option>Option3</option>
+			                        <option>Option4</option>
+			                      </select>
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">How many years have you been in business?*</label>
+			                       <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+		                  	</div>
+		                  	<div class="row">
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Estimated value of monthly invoices that need to be discounted (Ugx) </label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Your main bankers</label>
+			                       <select class="form-control" id="exampleFormControlSelect1">
+			                        <option>Option1</option>
+			                        <option>Option2</option>
+			                        <option>Option3</option>
+			                        <option>Option4</option>
+			                      </select>
+			                    </div>
+		                  	</div>
+		                  	<div class="row">
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Your current customers</label>
+			                      <select class="form-control" id="exampleFormControlSelect1">
+			                        <option>Option1</option>
+			                        <option>Option2</option>
+			                        <option>Option3</option>
+			                        <option>Option4</option>
+			                      </select>
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Attach Documents</label>
+				                    <div class="d-flex">
+				                      	<div class="pflDocx mb-3">
+					                       	<img src="images/financial-statements-1.jpg">
+					                       	<img src="images/financial-statements-1.jpg">
+					                       	<img src="images/financial-statements-1.jpg">
+				                        </div>
+				                        <div class="upload_btn ">
+						                  <button type="button" class="btn start_btn apply_btn">Upload</button>
+						                   <input type="file" id="myFile" name="filename">
+						                </div>		
+				                    </div>  
+			                    </div>
+		                  	</div>
+		                  	
+		                </div>
+	              	</div>
+	              <!-- 	<div class="address_div divs_margin">
+	                	<h4 class="mb-4">Company Owner/Director Details</h4>
+		                <div class="address_content">
+		                  	<div class="row">
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">First Name</label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Last Name</label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                     <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Personal Mobile Number*</label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                     <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">National Identifcation Number (NIN)*</label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                     <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Personal Physical Address*</label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Expiry Date</label>
+			                      <input id="datepicker1" placeholder="dd/mm/yyyy" />
+			                    </div>
+		                  	</div>
+		                  	<div class="row">
+			                    <div class="col-md-6 input_padding">
+			                      <label for="exampleFormControlInput1">Since when has the owner or director lived at the Address?</label>
+			                      <input type="text" class="form-control float-left" id="exampleInputEmail1" aria-describedby="emailHelp" value="Lorem ipsum">
+			                    </div>
+		                  	</div>
+		                </div>
+	              	</div> -->
+	                
+	             
+		            <div class="btns main_row">
+		              <a href="#" class="btn start_btn apply_btn">Save</a>
+		               <a href="myProfile.html" class="btn start_btn apply_btn ml-4">Cancel</a>
+		            </div> 
+	            </div>
+	          </div>
+	        </div> 
+	    </div>
+	</div>
+
+    
+
+
+	
+
+	<!-- footer -->
+    <footer id="footer" class="wrap-bg-secondary">
+        
+        <div class="footer_copyy">
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="copyright text-left">
+                                <p class="mt-3">Copyright © 2020. All Rights Reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-right ">
+                            <div class="icon-round-white footer-social mt-1">
+                            <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>                    
+                            <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cd-top"></div>
+            </div>
+        </div>
+    </footer>
+	
+</body>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js" integrity="sha512-7yA/d79yIhHPvcrSiB8S/7TyX0OxlccU8F/kuB8mHYjLlF1MInPbEohpoqfz0AILoq5hoD7lELZAYYHbyeEjag==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/parallax.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<script>
+    $('#datepicker').datepicker({
+        uiLibrary: 'bootstrap4'
+    });
+</script>
+<script>
+    $('#datepicker1').datepicker({
+        uiLibrary: 'bootstrap4'
+    });
+</script>
+
+
+</html>

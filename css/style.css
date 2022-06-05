@@ -1,0 +1,3938 @@
+
+/* You can add global styles to this file, and also import other style files */
+ body {
+   font-size: 14px;
+   font-weight: normal;
+   font-style: unset;
+   margin: 0;
+   padding: 0;
+   letter-spacing: 1.4px;
+   color: #7f7e7d;
+   font-family: 'poppins', sans-serif;
+}
+ .sec_gray {
+   background: #f8f7f9;
+}
+ * {
+   padding: 0;
+   margin: 0;
+}
+ ul {
+   list-style-type: none;
+}
+ h1, h2, h3, h4, h5, h6 {
+   color: #434445; 
+   letter-spacing: normal; 
+   margin: 0 0 16px; 
+}
+
+.register_card label{
+  font-size: 13px ! important;
+}
+ a {
+   color: unset;
+   cursor: pointer !important;
+}
+ a:hover, a:focus {
+   text-decoration: none;
+   color: unset;
+   outline: none;
+}
+ .form-control {
+   letter-spacing: 1.6px;
+}
+ .form-control:focus {
+   border-color: #0e75c0;
+   box-shadow: none;
+   outline: 0 none;
+}
+ section {
+   padding: 60px 0 60px;
+   position: relative;
+}
+ .bg_gray {
+   background: #ecf1f8;
+}
+ .custom_container {
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 0 25px;
+}
+ .wrapper_shala {
+  /*margin-top: 135px;
+  */
+}
+ .pos_rel {
+   position: relative;
+}
+ a.cp {
+   color: #4579ae !important;
+   text-decoration: underline !important;
+}
+/*--header navbar--*/
+ header.header_home {
+   box-shadow: 1px 0px 9px -6px #707070;
+   padding: 10px 0;
+   z-index: 999;
+   position: relative;
+}
+ .header_home.header-main {
+   position: fixed;
+   z-index: 99999;
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+ .navbar-nav .nav-link.spcl_btn_heder {
+   border-radius: 50px;
+   padding: 0.5rem 2rem;
+   color: rgba(0,0,0,.9);
+   border: 2px solid #238ab4;
+}
+ .navbar-brand .img-fluid {
+   width: 262px;
+   transition: all 0.5s ease 0s;
+}
+ .top-header {
+   background-color: #262626;
+   padding: 5px 0;
+}
+
+ ul.list-inline {
+   margin-bottom: 0;
+}
+ .social-icon > ul li a {
+   color: #fff !important;
+   display: inline-block;
+   padding: 10px;
+   text-align: center;
+   transition: all 0.4s ease 0s;
+   font-size: 10px;
+}
+ .top-logins > ul li span{
+   color: #fff;
+   font-size: 10px;
+   line-height: 40px;
+}
+ .btn.btn-outline-primary {
+   border: 1px solid #fff;
+   color: #fff;
+   min-width: 100px;
+}
+ .nav-item {
+   margin: 0 10px;
+   padding: 0px 10px;
+}
+/* a {
+   font-size: 15px;
+   color: #3362ed !important;
+   text-transform: uppercase;
+   font-weight: 500;
+}*/
+ .nav-item.active {
+   border-bottom: 2px solid #fff;
+}
+ .nav-item.active a {
+   color: #24bec6 !important;
+   border-bottom: 2px solid #24bec6;
+}
+ .navbar-nav {
+   width: 100%;
+}
+ .navbar.navbar-expand-lg {
+   padding: 0;
+   border: none;
+}
+ .form__--dasdf {
+   width: 350px;
+   color: #3362ed;
+}
+ .form__--dasdf a {
+   margin-left: 20px;
+}
+ .form__--dasdf .cart_btnn {
+   color: #238bb5 !important;
+   position: relative;
+}
+ .form__--dasdf .cart_btnn .no-cart {
+   background-color: #879;
+   border-radius: 50%;
+   color: #fff;
+   font-size: 10px;
+   height: 16px;
+   right: -10px;
+   position: absolute;
+   text-align: center;
+   top: -7px;
+   width: 16px;
+   line-height: 17px;
+}
+
+
+
+/********************************************************** Home Page starts **************************************************************/
+/*hero slider*/
+ .her_sldr_don {
+   padding: 0;
+}
+ .hero_carosel .desc_sldr {
+   position: absolute;
+   padding: 0;
+   z-index: 3;
+   top: 50%;
+   left: 37%;
+   transform: translate(-50%, -50%);
+   color: #fff;
+   width: 712px;
+}
+ .hero_carosel .desc_sldr h2 {
+   font-size: 52px;
+   color: #fff;
+   line-height: 50px;
+   margin: 20px 0;
+}
+ .hero_carosel .carsl_cnt {
+   font-size: 17px;
+   line-height: 20px;
+   margin: 20px 0 40px;
+}
+ .hero_carosel .hero-img {
+   position: relative;
+   height: 90vh;
+}
+ .hero_carosel .hero-img img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+   height: 100%;
+}
+ .hero_carosel .hero-img::before {
+   background-image: url('../images/ptrn.png');
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0.8;
+   background-repeat: repeat;
+}
+ .hero_carosel .delay-1 {
+   animation-delay: 0.2s;
+}
+ .hero_carosel .btn.btn_theme {
+   background: #3362ed;
+}
+ .hero_carosel .delay-2 {
+   animation-delay: 0.4s;
+}
+ .hero_carosel .slider-counter {
+   z-index: 99;
+   bottom: 30px;
+   position: absolute;
+   text-align: center;
+   right: 30px;
+   font-size: 50px;
+   color: #fff;
+   font-weight: 700;
+}
+ .hero_carosel .owl-nav .owl-prev, .hero_carosel .owl-nav .owl-next {
+   position: absolute;
+   bottom: 50%;
+   right: 50%;
+   color: #000;
+}
+ .hero_carosel .owl-nav .owl-prev {
+   left: 10px;
+}
+ .hero_carosel .owl-nav .owl-next {
+   right: 10px;
+}
+ .hero_carosel .owl-nav .owl-next, .hero_carosel .hero_carosel .tag {
+   display: inline-block;
+   background: #0b29a6;
+   padding: 2px 13px;
+}
+ .hero_carosel .tag {
+   display: inline-block;
+   background: #fff;
+   padding: 2px 13px;
+   color: #3362ed;
+}
+ .hero_carosel .owl-theme .owl-nav [class*="owl-"] {
+   color: #fff;
+   font-size: 47px;
+   line-height: 50px;
+   padding: 0;
+   background: transparent;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 3px;
+   border: 1px solid transparent;
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+}
+
+.hero_carosel .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #3362ed;
+  text-decoration: none;
+}
+/*hero slider*/
+
+ .position-center .intro-title {
+   left: 0;
+   right: 0;
+}
+ .sub_hed_pg {
+   font-size: 24px !important;
+}
+ .intro-title {
+   font-size: 60px;
+   font-weight: 900;
+   text-transform: uppercase;
+   color: #a0a0a0;
+   opacity: 0.1;
+   position: absolute;
+   left: 20px;
+   top: -10px;
+   white-space: nowrap;
+   width: 100%;
+}
+ .section-title h2, .section-title h3 {
+   line-height: 14px;
+   margin-bottom: 15px;
+   position: relative;
+   z-index: 1;
+   font-weight: 600;
+   color: #24bec6;
+}
+ .section-title p {
+   max-width: 600px;
+   position: relative;
+   padding-top: 20px;
+   margin: 0 auto;
+}
+ .section-title p::before {
+   content: '';
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   height: 2px;
+   width: 10px;
+   background-color: #20ad95;
+   left: 50%;
+   margin-left: -40px;
+   box-shadow: 25px 0px 0 0 #20ad95, 20px 0px 0 0 #20ad95, 40px 0px 0 0 #20ad95, 30px 0px 0 0 #20ad95, 60px 0px 0 0 #20ad95;
+}
+
+ .form-control, .custom-select {
+   height: 45px;
+   border-radius: 0;
+   border-radius: 4px;
+   background: #fafafa;
+   border: 2px solid #ededed;
+}
+ #footer {
+   background: #fff;
+   color: #6d7a8c;
+}
+ .footer-logo {
+   margin-bottom: 30px;
+   width: 220px;
+}
+ .footer-top {
+   padding: 40px 0;
+   border-bottom: 1px solid #e1e1e1;
+}
+ .footer_copyy {
+   color: #fff;
+}
+ .sigle-address {
+   margin-bottom: 16px;
+}
+ .address-icon {
+   float: left;
+   display: block;
+   margin-right: 15px;
+}
+ #footer .address-icon i {
+   color: #24bec6 !important;
+}
+ .sigle-address p {
+   overflow: hidden;
+   display: block;
+   margin-bottom: 0;
+   line-height: 1.5;
+}
+ .footer-social a {
+   font-size: 15px;
+   margin-right: 10px;
+   display: inline-block;
+   text-align: center;
+   color: #24bec6;
+   background-color: rgba(255, 255, 255, 0.07);
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   margin-top: 6px;
+}
+ .mt-25 {
+   margin-top: 25px;
+}
+ .f-widget-title h4 {
+   font-weight: 800;
+   font-size: 22px;
+   line-height: 30px;
+   padding-bottom: 10px;
+   position: relative;
+   color: #6d7a8c;
+}
+.footer-social a{
+   font-size: 30px;
+}
+ .ftr_li {
+   padding: 9px 0;
+}
+ .ofr_img {
+   margin: 0 5px;
+}
+ .img_ofer {
+   border-radius: 8px;
+}
+ .wrap_offers_div .owl-nav button {
+   width: 40px;
+   height: 40px;
+   line-height: 30px !important;
+   border: 1px solid #6d6d6d !important;
+   border-radius: 100% !important;
+}
+ .h3-key {
+   color: #000;
+   margin-bottom: 5px;
+   text-transform: capitalize;
+   font-weight: 300;
+}
+ .qult_p_pasn {
+   color: #6d6d6d;
+   font-size: 19px;
+   line-height: 30px;
+   text-align: center;
+}
+ .ul_key_feat li {
+   margin-bottom: 30px;
+}
+ .ul_key_feat p {
+   color: #797979;
+   font-size: 14px;
+   line-height: 22px;
+   margin: 0;
+}
+ .ul_key_feat .ico_div {
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+   line-height: 68px;
+   text-align: center;
+   background: #24bec6;
+   font-size: 20px;
+   border: 18px solid #e4f0ff;
+   box-shadow: 0 0px 10px 1px #e0e0e0;
+   color: #fff;
+   min-width: 100px;
+   margin-right: 30px;
+}
+ .ul_key_feat a {
+   color: #265eb8 !important;
+   font-weight: 500;
+   font-size: 14px;
+}
+ .video-bx {
+   position: relative;
+   z-index: 1;
+   border-radius: 6px;
+   overflow: hidden;
+   height: 400px;
+}
+ .video-bx img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+ .video-bx .video-play-icon {
+   position: absolute;
+   z-index: 2;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+}
+ .video-play-icon a {
+   width: 80px;
+   height: 80px;
+   border-radius: 80px;
+   text-align: center;
+   line-height: 80px;
+   color: #fff;
+   box-shadow: 0 0 0 10px #33348e;
+   display: block;
+   font-size: 28px;
+   margin: auto;
+   transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
+   background: #3362ed;
+}
+ .custom-select.sel_exm {
+   width: 390px !important;
+   margin: 0 20px;
+}
+ .fltr_sec {
+   background: #3362ed;
+   padding: 40px 0 50px;
+   color: #fff;
+}
+.fltr_sec .btn_theme {
+  background: #fff;
+  color: #3362ed !important;
+  max-width: 160px;
+  min-width: unset;
+}
+ .next_seelct h1 {
+   font-size: 30px;
+   font-weight: 600;
+   margin-bottom: 5px;
+   color: #fff;
+}
+ .meta_info {
+   float: left;
+   padding-top: 10px;
+}
+ .meta_info h5 {
+   font-size: 26px;
+   font-weight: 500;
+}
+ .para_mision {
+   margin: 30px 0 60px;
+}
+ .sub_head > p {
+   padding-left: 70px;
+}
+ .sub_head > p::after {
+   position: absolute;
+   left: 0;
+   content: "";
+   background: #404040;
+   width: 60px;
+   height: 3px;
+   top: 46%;
+}
+ .sub_head > h3 {
+   position: relative;
+   display: block;
+   font-size: 29px;
+   line-height: 1.2em;
+   font-weight: 700;
+   color: #3362ed;
+   text-transform: uppercase;
+}
+ .img_mision::after {
+   content: "";
+   background-image: url(https://www.slashcreative.co/themes/moppers-version-2/wp-content/themes/moppers/assets/images/dots-2.svg);
+   background-size: cover;
+   position: absolute;
+   bottom: -20px;
+   z-index: 0;
+   right: 20px;
+   height: 180px;
+   width: 180px;
+   opacity: 0.8;
+}
+ .product-wraper {
+   margin-top: 2em;
+   border: 1px solid #ededed;
+   background: #fff;
+   margin: 0 10px;
+   min-height: 472px;
+}
+ .men-pro-item {
+   position: relative;
+}
+ .men-thumb-item {
+   text-align: center;
+   height: 290px;
+   overflow: hidden;
+   width: 100%;
+}
+ .men-thumb-item img {
+    height: 258px;
+    object-fit: cover;
+}
+ .men-cart-pro {
+   bottom: 0;
+   left: 0;
+   margin: auto;
+   opacity: 0;
+   overflow: hidden;
+   position: absolute;
+   right: 0;
+   text-align: center;
+   top: 0;
+   transition: all 0.5s ease-out 0s;
+   visibility: hidden;
+}
+ .inner-men-cart-pro {
+   height: 100%;
+   position: relative;
+   width: 100%;
+   transition: all 0.5s ease-out 0s;
+}
+ .inner-men-cart-pro .link-product-add-cart {
+   width: 61%;
+   top: 0;
+   left: 17%;
+   margin: 0 auto;
+   position: absolute;
+   transition: all 0.5s ease-out 0s;
+}
+ .product-new-top {
+   background: #fc636b;
+   color: #fff;
+   right: 0;
+   position: absolute;
+   top: 0;
+   padding: 4px 29px;
+   border-radius: 0 0 0px 10px;
+}
+ .item-info-product {
+   padding: 0 10px;
+}
+ .ratdd-rev {
+   font-size: 18px;
+   margin-top: 10px;
+}
+ .info-product-price {
+   margin: 12px 0;
+}
+ .fa-star, .fa-star-half-o, .fa-star-o {
+   color: #f4d21b;
+}
+ .info-product-price {
+   margin: 12px 0;
+}
+ span.item_price {
+   font-size: 21px;
+   color: #000;
+   font-weight: 600;
+}
+ .info-product-price del {
+   font-weight: 300;
+   margin-left: 13px;
+   font-size: 15px;
+}
+ .owl-nav {
+   position: absolute;
+   top: -80px;
+   right: 0;
+}
+ .owl-theme .owl-nav [class*="owl-"] {
+   color: #3362ed;
+   font-size: 17px;
+   margin: 5px;
+   padding: 9px 15px;
+   background: transparent;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 0;
+   border-radius: 100%;
+}
+ .owl-theme .owl-nav [class*="owl-"]:hover {
+   background: transparent;
+   color: #7386ea;
+}
+ .hero_carosel .owl-nav {
+   position: absolute;
+   top: 54%;
+   left: 0;
+   width: 100%;
+}
+ .img_mision {
+   text-align: center;
+}
+ .img_mision .img-fluid {
+   width: 370px;
+   display: inline-block;
+}
+ .why_uss {
+   background: #24bec6 !important;
+   color: #fff;
+}
+ .why_uss .qult_p_pasn {
+   color: #fff;
+}
+ .why_uss .section-title h2, .why_uss .section-title h3 {
+   color: #fff;
+}
+ .why_uss .intro-title {
+   color: #fff;
+}
+ .tesi_img {
+   width: 35px;
+   height: 35px;
+   object-fit: cover;
+   border-radius: 100%;
+   overflow: hidden;
+   margin-right: 10px;
+}
+ .tesi_info h3 {
+   margin-bottom: 0px;
+   color: #1c4cad;
+   font-weight: 500;
+}
+ .test_warap_sing {
+   border: 1px solid #cfcdcd;
+   margin: 0 20px;
+   padding: 20px 20px;
+   border-radius: 10px;
+}
+ .test_warap_sing p.test_def {
+   text-align: center;
+}
+ .abs_quote {
+   color: #3362ed;
+   font-size: 42px;
+   position: absolute;
+   top: 0px;
+   z-index: -1;
+   opacity: 0.2;
+   left: 10px;
+}
+.nav_div{
+   justify-content: flex-end;
+   line-height: 2;
+}
+.start_btn{
+   padding: 11px 21px;
+}
+.apply_btn{
+   background-color: #24bec6 !important;
+   color: #fff;
+   font-size: 14px;
+}
+.srvs_select{
+   border: none !important;
+}
+.logo_div{
+   width: 200px;
+   height: 200px;
+}
+.logos_div .img-fluid{
+   width: auto;
+   height: 100px;
+}
+.logos_div{
+   text-align: center;
+}
+.chooseImg{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.serveArea img{
+   width: 100%;
+   height: 350px;
+   object-fit: contain;
+}
+.whyUseH{
+   color: #fff !important;
+}
+.item_price1{
+   font-size: 20px;
+   color: #40454b;
+   font-weight: 300;
+}
+.service_des{
+   font-size: 14px;
+}
+.read_more{
+   color: #24bec6;
+   text-decoration: underline;
+   font-weight: 300;
+}
+.qult_sec{
+   background-color: #f4f8f8;
+}
+.slider_div .logo_div{
+   height: unset;
+}
+.logo_div{
+   width: 170px !important;
+}
+.slider_img{
+   width: 190px;
+   height: auto;
+   padding: 20px;
+}
+ul.ul_key_feat {
+    margin-bottom: 0;
+}
+.why_text{
+   /*padding: 40px 32px;*/
+}
+.wrap_abt_right {
+   max-width: 90%;
+   padding: 30px 20px 0;
+}
+.areas_section{
+   background-color: #fff;
+}
+.process_section{
+   background-color: #fff;
+}
+.services_div p{
+ height: 66px;
+ overflow: hidden;
+}
+.process_h{
+   border-right: 1px solid #7f7f7f;
+}
+.process_icon{
+   font-size: 50px;
+   color: #24bec6;
+}
+.process_section h4{
+   font-weight: 300;
+   margin-top: 25px;
+}
+.copyright{
+   color: #24bec6;
+}
+/*.testimonial-img{
+   height: 68px !important;
+   margin: auto;
+   border-radius: 100%;
+}*/
+.testimonial-img{
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   object-fit: cover;
+}
+.testimonialIndex-img{
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+   object-fit: cover;
+}
+.user_name{ 
+    margin-top: 13px;
+    margin-left: 9px;
+}
+.testimonial1 h6{
+   margin-bottom: 5px;
+}
+.help_div{
+   padding: 0 71px;
+   background-color: #fff;
+   height: 320px;
+
+}
+.help_icon{
+   font-size: 50px;
+   color: #24bec6;
+   margin-top: 50px;
+}
+.apply_loan{
+   margin-top: 40px;
+}
+.aabott_sec{
+   padding: 0;
+}
+.left_abt_mig{
+   background-image: url('../images/chooseUs.jpeg');
+}
+.Why_icons{
+   display: block;
+   height: 50px;
+   width: 50px;
+   background-color: #24bec6;
+   border-radius: 100%;
+   text-align: center;
+    line-height: 2.5 !important;
+    color: #fff;
+    font-size: 20px;
+}
+/********************************************************** Home Page ends **************************************************************/
+
+
+
+/********************************************************** Sign In Start **************************************************************/
+.sign_cover{
+   background-image: url('../images/financial-services (1).jpg');
+   width: 100%;
+   background-repeat: no-repeat;
+   object-fit: cover;
+}
+.sign_cover .card{
+  background-color: #fff ! important;
+}
+.termsPlcy a{
+  color: #24bec6;
+}
+
+.register_cover{
+   background-image: url('../images/financial-services (1).jpg');
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.register_card .card{
+  background-color: #fff;
+}
+.register_card .form-group label {
+  font-size: 13px ! important;
+  font-weight: unset;
+}
+.leads_info .card{
+   padding: 40px;
+   margin-bottom: 30px;
+}
+.welcome_h{
+   font-size: 16px;
+}
+.signIn_txt{
+   font-size: 11px;
+}
+.exampleInputEmail1{
+   font-size: 11px;
+}
+.reset_pswd{
+   justify-content: space-between;
+}
+.signIn-logo{
+   width: 150px;
+}
+.signIn_btn{
+   width: 116px;
+   margin-right: 15px;
+}
+.second_btn{
+   border-color: #24bec6 !important;
+   color: #24bec6 !important;
+}
+.btn_div{
+   margin-top: 60px;
+   justify-content: center;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 12px;
+}
+.signIncard{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sign_cover ul{
+   margin-left: 20px;
+   font-size: 12px;
+}
+.register_input input{
+   margin-top: 20px;
+}
+.card_cover{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.form-check input{
+   margin-top: 0px !important;
+}
+.register_check{
+   margin-top: 50px;
+}
+.modal-header i{
+   font-size: 60px;
+   text-align: center !important;
+   align-items: center;
+}
+.modal-header {
+   display: flex;
+   justify-content: center;
+   border-bottom: none !important;
+}
+#registerModel button{
+   width: 90px !important;
+}
+#registerModel{
+   top:20%;
+}
+.register_input .form-control{
+   width: 267px;
+   padding:10px;
+}
+.register_card .signIncard{
+   width: 600px;
+}
+.loginPoints li{
+   list-style-type: circle !important;
+}
+.login{
+   color: #24bec6 !important;
+   text-decoration: underline;
+}
+
+@import url('https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css');
+.otpFelids .form-control {
+  -webkit-transition: none;
+  transition: none;
+  width: 36px;
+  height: 32px;
+  text-align: center
+}
+
+.otpFelids .form-control:focus {
+  color: #3F4254;
+  background-color: #ffffff;
+  border-color: #884377;
+  outline: 0;
+}
+
+.otpFelids .form-control.form-control-solid {
+  background-color: #cfcdcc;
+  border-color: #F3F6F9;
+  color: #3F4254;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.otpFelids .form-control.form-control-solid:active,
+.otpFelids .form-control.form-control-solid.active,
+.otpFelids .form-control.form-control-solid:focus,
+.otpFelids .form-control.form-control-solid.focus {
+  background-color: #EBEDF3;
+  border-color: #EBEDF3;
+  color: #3F4254;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+#otp{
+   display: flex;
+}
+
+.footer_nav ul{
+   display: inline-flex;
+}
+.footer_nav li{
+   margin-left: 40px;
+}
+input.required::after{
+  content: "*";
+  color: red;
+}
+/*.required span{
+  content: '*';
+  color: red;
+}*/
+.register_input .required{
+  position: relative;
+}
+.asterisk_input::after {
+content:" *"; 
+color: #e32;
+position: absolute; 
+margin: 0px 0px 0px -20px; 
+font-size: 20px; 
+padding: 0 5px 0 0;
+top: 22px;
+right: 0; 
+}
+
+
+/********************************************************** Sign In ends **************************************************************/
+
+/********************************************************** Dashboard starts **************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    position: relative
+}
+
+.wrapper .sidebar {
+   width: 300px;
+    height: 100%;
+    background-color: #fff;
+    padding: 30px 0px;
+    z-index: 1;
+    top:0;
+   
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05)
+}
+
+.wrapper .sidebar ul li a {
+    color: #000;
+    display: block
+}
+
+.wrapper .sidebar ul li a .fa {
+    width: 25px
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px
+}
+
+.wrapper .sidebar ul li:hover {
+    background-color: #24bec6 ! important;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+}
+
+.wrapper .sidebar .social_media {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex
+}
+
+.wrapper .sidebar .social_media a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.wrapper .main_content {
+    width: 100%;
+    background-color:#f8f8f8;
+}
+
+.wrapper .main_content .header {
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    border-bottom: 1px solid #e0e4e8
+}
+
+.wrapper .main_content .info {
+    margin: 20px;
+    color: #717171;
+    line-height: 25px
+}
+
+.wrapper .main_content .info div {
+    margin-bottom: 20px
+}
+
+.card_war{
+   position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.dashboard_card{
+  box-shadow: 0 1px 11px 0 rgb(0 0 0 / 12%);
+  position: relative;
+  padding: 0; 
+}
+.cards_icon{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 30px !important;
+  text-align: center;
+  display: flex;
+  top: -20px;
+  color: #fff;
+   padding-top: 14px;
+}
+.card_title{
+   font-weight: 500;
+   margin-top: 26px;
+}
+.main_content .container{
+ padding: 43px;
+}
+.card_2{
+   background-color: #FC6180;
+}
+.card2_text{
+   color: #FC6180;
+}
+.card_3{
+   background-color: #93BE52;
+}
+.card3_text{
+   color: #93BE52;
+}
+.card_4{
+   background-color: #FFB64D;
+}
+.card4_text{
+   color: #FFB64D;
+}
+.sec_row{
+   margin-top: 60px;
+}
+.card_5{
+   background-color: #24bec6;
+}
+.card5_text{
+   color: #24bec6;
+}
+.upcoming_stone{
+   margin-top: 50px;
+}
+.invoices{
+   margin-top: 50px;
+   padding: 25px;
+}
+.upcoming_name{
+   margin-top: -13px;
+   justify-content: space-between;
+}
+.invoice_table{
+   justify-content: space-between;
+}
+.dashboard_ul{
+   align-items: center;
+}
+/********************************************************** Dashboard ends **************************************************************/
+
+/********************************************************** Create Profile start **************************************************************/
+.financeType .form-control{
+   width: 100% !important;
+   font-size: 13px;
+   font-weight: 400;
+   color: #747d84 !important;
+}
+
+/********************************************************** Create Profile ends **************************************************************/
+
+/********************************************************** Invoice Factoring starts **************************************************************/
+.Invoice_Factoring{
+   background-image: url('../images/slider2.jpeg');
+   background-size: cover;
+   height: 400px;
+}
+.main_row{
+   margin-left: 30px;
+   margin-right: 30px;
+   justify-content: space-between;
+   width: 100%;
+   color: #fff ! important;
+}
+.main_row .start_btn{
+   height: 48px;
+}
+.main_row h1{
+   color: #fff ! important;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+   color: #fff;
+   background-color: #337ab7;
+}
+.nav-pills a{
+   color: #337ab7;
+   text-decoration: none;
+}
+.Invoice_Factoring .container{
+   margin-top: 78px;
+}
+.service_Tabs li{
+   margin-left: 80px;
+}
+.Srvsecond_btn{
+   width: 100%;
+   margin-right: 30px;
+}
+.Srvsecond_btn button{
+ width: 138px;
+}
+
+.pills_div .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+   border-bottom: 3px solid #24bec6 !important;
+   background-color: transparent!important;
+   color: #000;
+}
+.pills_div .nav-pills a{
+   color: #000;
+}
+.pills_div ul{
+   margin-bottom: 60px;
+    border-bottom: 1px solid #ccced0;
+}
+.Invoice_btns{
+   justify-content: center;
+}
+.Invoice_img{
+   background-image: url('../images/InvoiceFactor.png');
+   background-size: cover;
+   height: 300px;
+}
+.aboutLoan{
+   padding: 2% 0;
+}
+.desc_div .section-title{
+   width: 100%;
+}
+.prosList li{
+   padding:10px;
+}
+.Invoice_Factoring .main_row{
+   margin-top: 70px;
+}
+
+.faq .card{
+   padding: 0 !important;
+   margin-top: 20px;
+}
+.faq .card-header{
+   background-color: #24bec6 !important;
+   color: #fff !important;
+}
+.faq .btn-link{
+   color: #fffb !important;
+   font-weight: 600;
+}
+.pills_div{
+   justify-content: center;
+}
+.invoice_section{
+   background-color: #ecf1f8;
+}
+.title_margin{
+   margin-bottom: 30px;
+    margin-top: 30px;
+}
+.quickApply .container{
+   background-color: #fff;
+   padding: 13px 34px;
+}
+.main_tabs{
+   display: flex;
+   justify-content: center;
+}
+.submit_btn{
+   padding: 11px 21px;
+   width: 128px;
+}
+.quickApply select{
+   font-size: 12px;
+   color: #495057;
+}
+.Loan_type{
+   display: flex;
+   justify-content: center;
+}
+.Loan_type span{
+margin-top: 38px;
+}
+/********************************************************** Invoice Factoring ends **************************************************************/
+
+/********************************************************** Terms and Condions start **************************************************************/
+
+.terms_section{
+   background-color:#ecf1f8;
+}
+.title-terms{
+   padding-bottom: 30px;
+}
+.sub_heading{
+   margin-top: 15px;
+}
+.data_wrap{
+ text-align: left;
+}
+.data_wrap p{
+   text-align: justify;
+   margin-bottom: 10px;
+}
+.data_wrap h3{
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+/********************************************************** Terms and Condions ends **************************************************************/
+
+/********************************************************** Privacy and security starts **************************************************************/
+
+.privacy_section{
+   background-color: #ecf1f8; 
+}
+.privacy_section ul{
+   list-style-type: circle;
+   padding: 0px 0px 0px 30px;
+}
+.privacy_section li {
+   list-style: unset ! important;
+   padding: 5px 7px;
+   text-align: justify;
+}
+/********************************************************** Privacy and security ends **************************************************************/
+
+/********************************************************** Leads Information starts **************************************************************/
+.leads_detail .card{
+   padding: unset ! important;
+}
+.leads_section .container{
+   padding : unset ! important;
+}
+
+.leads_detail .table th, .table td{
+       padding: 18px 6px 18px 11px;
+
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.85rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.has-search{
+   padding: 8px;
+   width: 270px;
+}
+.addLead_btn{
+   background-color: #24bec6;
+    border-radius: 100%;
+    color: #fff;
+}
+.filters_div{
+   justify-content: space-between;
+}
+.leads_detail .table i{
+   font-weight: 500 ! important;
+}
+#status_drp{
+   width: 150px;
+}
+.search_leads{
+   display: flex;
+   justify-content: flex-start;
+}
+.addFliter_div{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 9px;
+}
+.leads_section .form-group{
+   margin-bottom: 0px ! important;   
+}
+.leads_section .srch{
+   border-radius: 45px;
+}
+.inner_content{
+   padding :30PX;
+}
+.divs_margin{
+   margin-bottom: 40px;
+}
+.btns{
+   display: flex;
+   justify-content: center;
+}
+.creditEx_content{
+   width: 25%;
+}
+.upload-img
+{
+   border-radius: 50% 50% 50% 50%;
+   height: 120px;
+   width: 120px;
+   object-fit: cover;
+}
+.leads_info .main_row{
+   margin: 0px ! important;
+}
+.upload_btn{
+   position: relative;
+}
+#myFile{
+   position: absolute;
+   right: 233px;
+    top: 11px;
+    opacity: 0;
+}
+.btns .start_btn{
+   width: 128px;
+}
+.leads_detail .table_scroll{
+   overflow-x:auto;
+   padding: 11px 0px;
+}
+.leads_table{
+   padding: 20px;
+}
+.slick-slide img{
+   display: unset !important;
+}
+/********************************************************** Leads Information ends **************************************************************/
+
+/********************************************************** Complete Profile Starts **************************************************************/
+
+
+.numberCircle{
+   
+}
+.steps_list span{
+    background-color: #b0b4b0;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    font-weight: 700;
+    margin: 5px;
+    display: inline-block; 
+}
+.steps_list .active span{
+   background-color: #24bec6;
+}
+.steps_list .active {
+   color:#24bec6; 
+}
+.steps_list li::after{
+   content: " ";
+   width: 80px;
+   height: 26px;
+   border-bottom: 2px solid #b0b4b0;
+   position: absolute;
+}
+.steps_list .active::after{
+   border-bottom: 2px solid #24bec6 ! important;
+}
+.progressBar.list-group-item.active, li{
+   background-color: unset ! important;
+   border: unset ! important;
+}
+.progressBar li{
+   margin-right: 40px ! important;
+}
+.comProfile_div .card{
+   margin-bottom: 30px;
+}
+.form_div{
+   padding: 35px;
+}
+.comProfile_div select{
+   font-size: 13px;
+}
+.comProfile_div .form-control{
+   margin-bottom: 20px;
+}
+.form_div button{
+   width: 128px;
+}
+#dropzone {
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comProfile_div .signIn_btn{
+   width: unset;
+}
+.prevNext_btns{
+   display: flex;
+   justify-content:space-between; 
+}
+.prevNext_btns .apply_btn{
+   width: 128px;
+}
+.step1Profile{
+   width: 128px;
+}
+.dropzone {
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card textarea, .form-control{
+   font-size: 14px;
+   font-weight: normal;
+   font-style: unset;
+   margin: 0;
+  /* padding: 0;*/
+   letter-spacing: 1.4px;
+   color: #7f7e7d;
+   font-family: 'poppins', sans-serif;
+}
+.sign_input .form-control{
+   padding:15px;
+}
+.register_cover img{
+   margin-top: 20px;
+}
+.upcmgStn{
+   padding: 25px;
+}
+/********************************************************** Complete Profile ends **************************************************************/
+
+/********************************************************** People Said section starts **************************************************************/
+
+.ppl_Said{
+   background-color: #ecf1f8;  
+}
+.ppl_content img{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 5px solid #fff;
+  box-shadow: rgb(0 0 0 / 9%) 0px 4px 5px;
+}
+.cmpny_detail{
+   color: #24bec6;
+}
+.client_review{
+   margin-bottom: 30px;
+}
+.ppl_info1 p{
+   margin-bottom: 3px ! important;
+   font-weight: 700;
+}
+.ppl_content{
+   padding: 39px 0px 45px 0px;
+   border-bottom: 2px solid #e8e8e8;
+}
+
+
+
+
+/********************************************************** People Said section ends **************************************************************/
+
+/********************************************************** AboutUs starts **************************************************************/
+.aboutUs_section{
+   background-color:#fff; 
+}
+.Mainsection_title1{
+   padding: 0 0 2% 0;
+   text-align: center;
+}
+.Mainsection_title1 h2, .Mainsection_title1 h3{
+   padding: 0 0 2% 0;
+   text-align: center;
+   color: #24bec6;
+   font-weight: 600; 
+}
+.section_title1{
+  padding: 2% 0;
+  text-align: center; 
+}
+.section_title1 h2{
+   color: #24bec6;
+   font-weight: 600;
+   margin-bottom: 15px;
+}
+.offers_list{
+   list-style-type: circle;
+   padding: 0px 0px 0px 30px;
+}
+.offers_list li{
+   list-style: unset ! important;
+   padding: 5px 7px;
+   text-align: justify;
+}
+.mainSub_heading h3{
+   font-size: 20px;
+   margin-bottom: 15px;
+   color: #434445;
+   letter-spacing: normal;
+   margin: 0 0 16px;
+}
+.CEOmsg_section{
+   background-color: #ecf1f8;
+   overflow: hidden;
+}
+.ceomsg_div{
+   position: relative;
+}
+.shape_div{
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-left: 325px solid transparent;
+    border-right: 639px solid transparent;
+    border-bottom: 353px solid #24bec6;
+    transform: rotate(44deg);
+    top: -86px;
+}
+.shape_div::before{
+   content: " ";
+   width: 80px;
+   height: 26px;
+   border-bottom: 2px solid #b0b4b0;
+   position: absolute;
+}
+.ceomsg_div h2{
+   text-align: left ! important;
+}
+.ceo_detial{
+   position: absolute;
+   top: 58px;
+   right: 76px;
+}
+.ceo_detial img{
+   width: 120px;
+   height: 120px;
+   margin-bottom: 5px;
+}
+.ceo_detial span{
+   font-size: 10px;
+   font-weight: 800;
+}
+.ourMember_section .Mainsection_title1 h2{
+   padding: 0 ! important;
+   margin: 0 ! important;
+}
+.ourMember_section .Mainsection_title1 span{
+   font-weight: 600;
+}
+.aabott_sec1 .Mainsection_title1 h2{
+   padding: 0 ! important;
+   margin: 2px ! important;
+}
+.abt_Us .main_row{
+   margin-top: 110px;
+}
+.brchList{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+.brchList .form-group{
+   width: 30%;
+}
+.srvsList .card-body{
+ padding: 15px ! important;
+ min-height: 165px;
+}
+.srvsList p{
+ margin-bottom: 10px;
+}
+.srvsList span{
+   margin-bottom: 5px;
+}
+.opnPd{
+   display: flex;
+   justify-content: space-around;
+}
+.prgLbl{
+   display: flex;
+   justify-content: space-between;
+}
+.weekgl{
+   font-size: 13px;
+   color: #24bec6 ! important;
+   font-weight: 600;
+}
+.prgLbl{
+   width: 300px;
+}
+.prgLbl span{
+   font-size: 12px;
+   color: #060606;
+   font-weight: 600;
+}
+.progress{
+   height: 7px ! important;
+   margin-bottom: 30px;
+}
+.utdPage a{
+   font-size: 12px;
+}
+.crtBrnh{
+   display: flex;
+}
+.paragh{
+   padding: 15px;
+}
+.crtBrnh{
+   padding: 0px 100px;
+}
+.cngBrcnh a{
+   color: #24bec6 ! important;
+}
+.cngBrcnh{
+   display: flex;
+   padding: 27px 100px;
+}
+.addBrnch{
+   display: flex;
+   justify-content: space-between;
+}
+.addBrnch h4{
+   margin: 0px ! important;
+}
+.brnchs table.dataTable tbody td {
+    padding: 22px 10px;
+}
+.brnchs .dataTables_wrapper{
+   padding: 56px 14px;
+}
+/********************************************************** AboutUs ends **************************************************************/
+/*********************************************** Calendar Page Starts **************************************/
+
+/*!
+ * FullCalendar v3.9.0
+ * Docs & License: https://fullcalendar.io/
+ * (c) 2018 Adam Shaw
+ */
+.fc {
+  direction: ltr;
+  text-align: left; }
+
+.fc-rtl {
+  text-align: right; }
+
+body .fc {
+  /* extra precedence to overcome jqui */
+  font-size: 1em; }
+
+/* Colors
+----------------------------------------------*/
+.fc-highlight {
+  /* when user is selecting cells */
+  background: #bce8f1;
+  opacity: .3; }
+
+.fc-bgevent {
+  /* default look for background events */
+  background: #8fdf82;
+  opacity: .3; }
+
+.fc-nonbusiness {
+  /* default look for non-business-hours areas */
+  /* will inherit .fc-bgevent's styles */
+  background: rgba(52,40,104,.05); }
+
+/* Buttons (styled <button> tags, normalized to work cross-browser)
+-----------------------------------------------------------*/
+.fc button {
+  /* force height to include the border and padding */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* dimensions */
+  margin: 0;
+  height: auto;
+  padding: 0 .6em;
+  /* text & cursor */
+  font-size: 1em;
+  /* normalize */
+  white-space: nowrap;
+  cursor: pointer; }
+
+/* Firefox has an annoying inner border */
+.fc button::-moz-focus-inner {
+  margin: 0;
+  padding: 0; }
+
+.fc-state-default {
+  /* non-theme */
+  border: 1px solid; }
+
+.fc-state-default.fc-corner-left {
+  /* non-theme */
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; }
+
+.fc-state-default.fc-corner-right {
+  /* non-theme */
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+/* icons in buttons */
+.fc button .fc-icon {
+  /* non-theme */
+  position: relative;
+  top: -0.05em;
+  /* seems to be a good adjustment across browsers */
+  margin: 0 .2em;
+  vertical-align: middle; }
+
+/*
+  button states
+  borrowed from twitter bootstrap (http://twitter.github.com/bootstrap/)
+*/
+.fc-state-default {
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: #333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); }
+
+.fc-state-hover,
+.fc-state-down,
+.fc-state-active,
+.fc-state-disabled {
+  color: #333333;
+  background-color: #e6e6e6; }
+
+.fc-state-hover {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear; }
+
+.fc-state-down,
+.fc-state-active {
+  background-color: #cccccc;
+  background-image: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); }
+
+.fc-state-disabled {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  box-shadow: none; }
+
+/* Buttons Groups
+----------------------------------------------------*/
+.fc-button-group {
+  display: inline-block; }
+
+/*
+every button that is not first in a button group should scootch over one pixel and cover the
+previous button's border...
+*/
+.fc .fc-button-group > * {
+  /* extra precedence b/c buttons have margin set to zero */
+  float: left;
+  margin: 0 0 0 -1px; }
+
+.fc .fc-button-group > :first-child {
+  /* same */
+  margin-left: 0; }
+
+/* Popover
+-------------------------------------------------------*/
+.fc-popover {
+  position: absolute;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+
+.fc-popover .fc-header {
+  /* TODO: be more consistent with fc-head/fc-body */
+  padding: 2px 4px; }
+
+.fc-popover .fc-header .fc-title {
+  margin: 0 2px; }
+
+.fc-popover .fc-header .fc-close {
+  cursor: pointer; }
+
+.fc-ltr .fc-popover .fc-header .fc-title,
+.fc-rtl .fc-popover .fc-header .fc-close {
+  float: left; }
+
+.fc-rtl .fc-popover .fc-header .fc-title,
+.fc-ltr .fc-popover .fc-header .fc-close {
+  float: right; }
+
+/* Misc Reusable Components
+-----------------------------------------------------*/
+.fc-divider {
+  border-style: solid;
+  border-width: 1px; }
+
+hr.fc-divider {
+  height: 0;
+  margin: 0;
+  padding: 0 0 2px;
+  /* height is unreliable across browsers, so use padding */
+  border-width: 1px 0; }
+
+.fc-clear {
+  clear: both; }
+
+.fc-bg,
+.fc-bgevent-skeleton,
+.fc-highlight-skeleton,
+.fc-helper-skeleton {
+  /* these element should always cling to top-left/right corners */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.fc-bg {
+  bottom: 0;
+  /* strech bg to bottom edge */ }
+
+.fc-bg table {
+  height: 100%;
+  /* strech bg to bottom edge */ }
+
+/* Tables
+-----------------------------------------------------------*/
+.fc table {
+  width: 100%;
+  box-sizing: border-box;
+  /* fix scrollbar issue in firefox */
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+  /* normalize cross-browser */ }
+
+.fc th {
+  text-align: center; }
+
+.fc th,
+.fc td {
+  border-style: solid;
+  border-width: 1px 1px 0 1px !important;
+  padding: 0;
+  border-color: #eee;
+  vertical-align: top;
+}
+
+.fc td.fc-today {
+  border-style: double;
+  /* overcome neighboring borders */ }
+
+/* Internal Nav Links
+--------------------------------------------------------*/
+a[data-goto] {
+  cursor: pointer; }
+
+a[data-goto]:hover {
+  text-decoration: underline; }
+
+/* Fake Table Rows
+------------------------------------------------------*/
+.fc .fc-row {
+  /* extra precedence to overcome themes w/ .ui-widget-content forcing a 1px border */
+  /* no visible border by default. but make available if need be (scrollbar width compensation) */
+  border-style: solid;
+  border-width: 0; }
+
+.fc-row table {
+  /* don't put left/right border on anything within a fake row.
+     the outer tbody will worry about this */
+  border-left: 0 hidden transparent;
+  border-right: 0 hidden transparent;
+  /* no bottom borders on rows */
+  border-bottom: 0 hidden transparent; }
+
+.fc-row:first-child table {
+  border-top: 0 hidden transparent;
+  /* no top border on first row */ }
+
+/* Day Row (used within the header and the DayGrid)
+----------------------------------------------------------*/
+.fc-row {
+  position: relative;
+  background: #ffffff;
+}
+
+.fc-row .fc-bg {
+  z-index: 1; }
+
+/* highlighting cells & background event skeleton */
+.fc-row .fc-bgevent-skeleton,
+.fc-row .fc-highlight-skeleton {
+  bottom: 0;
+  /* stretch skeleton to bottom of row */ }
+
+.fc-row .fc-bgevent-skeleton table,
+.fc-row .fc-highlight-skeleton table {
+  height: 100%;
+  /* stretch skeleton to bottom of row */ }
+
+.fc-row .fc-highlight-skeleton td,
+.fc-row .fc-bgevent-skeleton td {
+  border-color: transparent; }
+
+.fc-row .fc-bgevent-skeleton {
+  z-index: 2; }
+
+.fc-row .fc-highlight-skeleton {
+  z-index: 3; }
+
+/*
+row content (which contains day/week numbers and events) as well as "helper" (which contains
+temporary rendered events).
+*/
+.fc-row .fc-content-skeleton {
+  position: relative;
+  z-index: 4;
+  padding-bottom: 2px;
+  /* matches the space above the events */ }
+
+.fc-row .fc-helper-skeleton {
+  z-index: 5; }
+
+.fc .fc-row .fc-content-skeleton table,
+.fc .fc-row .fc-content-skeleton td,
+.fc .fc-row .fc-helper-skeleton td {
+  /* see-through to the background below */
+  /* extra precedence to prevent theme-provided backgrounds */
+  background: none;
+  /* in case <td>s are globally styled */
+  border-color: transparent;
+  padding: .5rem .5rem;
+}
+
+.fc-row .fc-content-skeleton td,
+.fc-row .fc-helper-skeleton td {
+  /* don't put a border between events and/or the day number */
+  border-bottom: 0; }
+
+.fc-row .fc-content-skeleton tbody td,
+.fc-row .fc-helper-skeleton tbody td {
+  /* don't put a border between event cells */
+  border-top: 0; }
+
+/* Scrolling Container
+--------------------------------------------------------*/
+.fc-scroller {
+  -webkit-overflow-scrolling: touch; }
+
+/* TODO: move to agenda/basic */
+.fc-scroller > .fc-day-grid,
+.fc-scroller > .fc-time-grid {
+  position: relative;
+  /* re-scope all positions */
+  width: 100%;
+  /* hack to force re-sizing this inner element when scrollbars appear/disappear */ }
+
+/* Global Event Styles
+-------------------------------------------*/
+.fc-event {
+  position: relative;
+  /* for resize handle and other inner positioning */
+  display: block;
+  /* make the <a> tag block */
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  border-radius: 3px;
+  font-weight: 500;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+  /* default BORDER color */ }
+
+.fc-event,
+.fc-event-dot {
+  background-color: #ffffff;
+  color: #5d5386;
+  position: relative;
+  /* default BACKGROUND color */ }
+.fc-event:before,
+.fc-event-dot:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 50px;
+    height: 100%;
+    border-left: 3px solid #5d5386;
+    border-bottom: 3px solid #5d5386;
+    -webkit-border-radius: 3px 0px 0px 3px;
+    -moz-border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0px 0px 3px;
+}
+.fc-event .fc-title {
+    font-weight: 500;
+}
+.fc-event i{
+    font-size: 26px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.fc-event,
+.fc-event:hover {
+  color: #fff;
+  /* default TEXT color */
+  text-decoration: none;
+  /* if <a> has an href */ }
+
+.fc-event[href],
+.fc-event.fc-draggable {
+  cursor: pointer;
+  /* give events with links and draggable events a hand mouse pointer */ }
+
+.fc-not-allowed,
+.fc-not-allowed .fc-event {
+  /* to override an event's custom cursor */
+  cursor: not-allowed; }
+
+.fc-event .fc-bg {
+  /* the generic .fc-bg already does position */
+  z-index: 1;
+  background: #fff;
+  opacity: .25; }
+
+.fc-event .fc-content {
+    color: #2c304d;
+    position: relative;
+    z-index: 2;
+    padding: 8px;
+}
+
+/* resizer (cursor AND touch devices) */
+.fc-event .fc-resizer {
+  position: absolute;
+  z-index: 4; }
+
+/* resizer (touch devices) */
+.fc-event .fc-resizer {
+  display: none; }
+
+.fc-event.fc-allow-mouse-resize .fc-resizer,
+.fc-event.fc-selected .fc-resizer {
+  /* only show when hovering or selected (with touch) */
+  display: block; }
+
+/* hit area */
+.fc-event.fc-selected .fc-resizer:before {
+  /* 40x40 touch area */
+  content: "";
+  position: absolute;
+  z-index: 9999;
+  /* user of this util can scope within a lower z-index */
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px; }
+
+/* Event Selection (only for touch devices)
+----------------------------------------------------------*/
+.fc-event.fc-selected {
+  z-index: 9999 !important;
+  /* overcomes inline z-index */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
+
+.fc-event.fc-selected.fc-dragging {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3); }
+
+/* Horizontal Events
+-----------------------------------------------------*/
+/* bigger touch area when selected */
+.fc-h-event.fc-selected:before {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  /* below resizers */
+  top: -10px;
+  bottom: -10px;
+  left: 0;
+  right: 0; }
+
+/* events that are continuing to/from another week. kill rounded corners and butt up against edge */
+.fc-ltr .fc-h-event.fc-not-start,
+.fc-rtl .fc-h-event.fc-not-end {
+  margin-left: 0;
+  border-left-width: 0;
+  padding-left: 1px;
+  /* replace the border with padding */
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.fc-ltr .fc-h-event.fc-not-end,
+.fc-rtl .fc-h-event.fc-not-start {
+  margin-right: 0;
+  border-right-width: 0;
+  padding-right: 1px;
+  /* replace the border with padding */
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+/* resizer (cursor AND touch devices) */
+/* left resizer  */
+.fc-ltr .fc-h-event .fc-start-resizer,
+.fc-rtl .fc-h-event .fc-end-resizer {
+  cursor: w-resize;
+  left: -1px;
+  /* overcome border */ }
+
+/* right resizer */
+.fc-ltr .fc-h-event .fc-end-resizer,
+.fc-rtl .fc-h-event .fc-start-resizer {
+  cursor: e-resize;
+  right: -1px;
+  /* overcome border */ }
+
+/* resizer (mouse devices) */
+.fc-h-event.fc-allow-mouse-resize .fc-resizer {
+  width: 7px;
+  top: -1px;
+  /* overcome top border */
+  bottom: -1px;
+  /* overcome bottom border */ }
+
+/* resizer (touch devices) */
+.fc-h-event.fc-selected .fc-resizer {
+  /* 8x8 little dot */
+  border-radius: 4px;
+  border-width: 1px;
+  width: 6px;
+  height: 6px;
+  border-style: solid;
+  border-color: inherit;
+  background: #fff;
+  /* vertically center */
+  top: 50%;
+  margin-top: -4px; }
+
+/* left resizer  */
+.fc-ltr .fc-h-event.fc-selected .fc-start-resizer,
+.fc-rtl .fc-h-event.fc-selected .fc-end-resizer {
+  margin-left: -4px;
+  /* centers the 8x8 dot on the left edge */ }
+
+/* right resizer */
+.fc-ltr .fc-h-event.fc-selected .fc-end-resizer,
+.fc-rtl .fc-h-event.fc-selected .fc-start-resizer {
+  margin-right: -4px;
+  /* centers the 8x8 dot on the right edge */ }
+
+/* DayGrid events
+---------------------------------------------------
+We use the full "fc-day-grid-event" class instead of 
+using descendants because the event won't
+be a descendant of the grid when it is being dragged.
+*/
+.fc-day-grid-event {
+  margin: 1px 2px 0;
+  /* spacing between events and edges */
+  padding: 0; }
+
+tr:first-child > td > .fc-day-grid-event {
+  margin-top: 2px;
+  /* a little bit more space before the first event */ }
+
+.fc-day-grid-event.fc-selected:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  /* same z-index as fc-bg, behind text */
+  /* overcome the borders */
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  /* darkening effect */
+  background: #000;
+  opacity: .25; }
+
+.fc-day-grid-event .fc-content {
+  /* force events to be one-line tall */
+  white-space: nowrap;
+  overflow: hidden; }
+
+.fc-day-grid-event .fc-time {
+  font-weight: bold; }
+
+/* resizer (cursor devices) */
+/* left resizer  */
+.fc-ltr .fc-day-grid-event.fc-allow-mouse-resize .fc-start-resizer,
+.fc-rtl .fc-day-grid-event.fc-allow-mouse-resize .fc-end-resizer {
+  margin-left: -2px;
+  /* to the day cell's edge */ }
+
+/* right resizer */
+.fc-ltr .fc-day-grid-event.fc-allow-mouse-resize .fc-end-resizer,
+.fc-rtl .fc-day-grid-event.fc-allow-mouse-resize .fc-start-resizer {
+  margin-right: -2px;
+  /* to the day cell's edge */ }
+
+/* Event Limiting
+-----------------------------------------------*/
+/* "more" link that represents hidden events */
+a.fc-more {
+  margin: 1px 3px;
+  font-size: .85em;
+  cursor: pointer;
+  text-decoration: none; }
+
+a.fc-more:hover {
+  text-decoration: underline; }
+
+.fc-limited {
+  /* rows and cells that are hidden because of a "more" link */
+  display: none; }
+
+/* popover that appears when "more" link is clicked */
+.fc-day-grid .fc-row {
+  z-index: 1;
+  /* make the "more" popover one higher than this */ }
+
+.fc-more-popover {
+  z-index: 2;
+  width: 220px; }
+
+.fc-more-popover .fc-event-container {
+  padding: 10px; }
+
+/* Now Indicator
+-----------------------------------------------------*/
+.fc-now-indicator {
+  position: absolute;
+  border: 0 solid red; }
+
+/* Utilities
+----------------------------------------------------*/
+.fc-unselectable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent; }
+
+/*
+TODO: more distinction between this file and common.css
+*/
+/* Colors
+--------------------------------------------------------*/
+.fc-unthemed th,
+.fc-unthemed td,
+.fc-unthemed thead,
+.fc-unthemed tbody,
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-row,
+.fc-unthemed .fc-content,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-list-view,
+.fc-unthemed .fc-list-heading td {
+  border-color: #ddd; }
+
+.fc-unthemed .fc-popover {
+  background-color: #fff; }
+
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-popover .fc-header,
+.fc-unthemed .fc-list-heading td {
+  background: #eee; }
+
+.fc-unthemed .fc-popover .fc-header .fc-close {
+  color: #666; }
+
+.fc-unthemed td.fc-today {
+  background: #fcf8e3; }
+
+.fc-unthemed .fc-disabled-day {
+  background: #d7d7d7;
+  opacity: .3; }
+
+/* Icons (inline elements with styled text 
+that mock arrow icons)
+-----------------------------------------------*/
+.fc-icon {
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  /* don't allow browser text-selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/*
+Acceptable font-family overrides for individual icons:
+  "Arial", sans-serif
+  "Times New Roman", serif
+
+NOTE: use percentage font sizes or else old IE chokes
+*/
+.fc-icon:after {
+  position: relative; }
+
+.fc-icon-left-single-arrow:after {
+  content: "\2039";
+  font-weight: bold;
+  font-size: 200%;
+  top: -7%; }
+
+.fc-icon-right-single-arrow:after {
+  content: "\203A";
+  font-weight: bold;
+  font-size: 200%;
+  top: -7%; }
+
+.fc-icon-left-double-arrow:after {
+  content: "\AB";
+  font-size: 160%;
+  top: -7%; }
+
+.fc-icon-right-double-arrow:after {
+  content: "\BB";
+  font-size: 160%;
+  top: -7%; }
+
+.fc-icon-left-triangle:after {
+  content: "\25C4";
+  font-size: 125%;
+  top: 3%; }
+
+.fc-icon-right-triangle:after {
+  content: "\25BA";
+  font-size: 125%;
+  top: 3%; }
+
+.fc-icon-down-triangle:after {
+  content: "\25BC";
+  font-size: 125%;
+  top: 2%; }
+
+.fc-icon-x:after {
+  content: "\D7";
+  font-size: 200%;
+  top: 6%; }
+
+/* Popover
+--------------------------------------------------------*/
+.fc-unthemed .fc-popover {
+  border-width: 1px;
+  border-style: solid; }
+
+.fc-unthemed .fc-popover .fc-header .fc-close {
+  font-size: .9em;
+  margin-top: 2px; }
+
+/* List View
+------------------------------------------------------------------*/
+.fc-unthemed .fc-list-item:hover td {
+  background-color: #f5f5f5; }
+
+/* Colors
+-------------------------------------------------------------------------*/
+.ui-widget .fc-disabled-day {
+  background-image: none; }
+
+/* Popover
+-----------------------------------------------------------------------*/
+.fc-popover > .ui-widget-header + .ui-widget-content {
+  border-top: 0;
+  /* where they meet, let the header have the border */ }
+
+/* Global Event Styles
+----------------------------------------------------*/
+.ui-widget .fc-event {
+  /* overpower jqui's styles on <a> tags. TODO: more DRY */
+  color: #fff;
+  /* default TEXT color */
+  text-decoration: none;
+  /* if <a> has an href */
+  /* undo ui-widget-header bold */
+  font-weight: normal; }
+
+/* TimeGrid axis running down the side (for both the all-day area and the slot area)
+-----------------------------------------------------*/
+.ui-widget td.fc-axis {
+  font-weight: normal;
+  /* overcome bold */ }
+
+/* TimeGrid Slats (lines that run horizontally)
+---------------------------------------------------------*/
+.fc-time-grid .fc-slats .ui-widget-content {
+  background: none;
+  /* see through to fc-bg */ }
+
+.fc.fc-bootstrap3 a {
+  text-decoration: none; }
+
+.fc.fc-bootstrap3 a[data-goto]:hover {
+  text-decoration: underline; }
+
+.fc-bootstrap3 hr.fc-divider {
+  border-color: inherit; }
+
+.fc-bootstrap3 .fc-today.alert {
+  border-radius: 0; }
+
+/* Popover
+----------------------------------------------------*/
+.fc-bootstrap3 .fc-popover .panel-body {
+  padding: 0; }
+
+/* TimeGrid Slats (lines that run horizontally)
+-----------------------------------------------------------*/
+.fc-bootstrap3 .fc-time-grid .fc-slats table {
+  /* some themes have background color. see through to slats */
+  background: none; }
+
+.fc.fc-bootstrap4 a {
+  text-decoration: none; }
+
+.fc.fc-bootstrap4 a[data-goto]:hover {
+  text-decoration: underline; }
+
+.fc-bootstrap4 hr.fc-divider {
+  border-color: inherit; }
+
+.fc-bootstrap4 .fc-today.alert {
+  border-radius: 0; }
+
+.fc-bootstrap4 a.fc-event:not([href]):not([tabindex]) {
+  color: #5d5386; }
+
+.fc-bootstrap4 .fc-popover.card {
+  position: absolute; }
+
+/* Popover
+----------------------------------------------------------*/
+.fc-bootstrap4 .fc-popover .card-body {
+  padding: 0; }
+
+/* TimeGrid Slats (lines that run horizontally)
+-----------------------------------------------------------*/
+.fc-bootstrap4 .fc-time-grid .fc-slats table {
+  /* some themes have background color. see through to slats */
+  background: none; }
+
+/* Toolbar
+--------------------------------------------*/
+.fc-toolbar {
+  text-align: center; }
+
+.fc-toolbar.fc-header-toolbar {
+  margin-bottom: 1em; }
+
+.fc-toolbar.fc-footer-toolbar {
+  margin-top: 1em; }
+
+.fc-toolbar .fc-left {
+  text-align: center; }
+
+.fc-toolbar .fc-right {
+  float: left; }
+
+.fc-toolbar .fc-center {
+   float: right;
+  display: inline-block; }
+
+.fc button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    height: auto;
+    padding: 0 1rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+/* the things within each left/right/center section */
+.fc .fc-toolbar > * > * {
+  /* extra precedence to override button border margins */
+  margin-left: .75em; }
+
+/* the first thing within each left/center/right section */
+.fc .fc-toolbar > * > :first-child {
+  /* extra precedence to override button border margins */
+  margin-left: 0; }
+
+/* title text */
+.fc-toolbar h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* button layering (for border precedence) */
+.fc-toolbar button {
+  position: relative; }
+
+.fc-toolbar .fc-state-hover,
+.fc-toolbar .ui-state-hover {
+  z-index: 2; }
+
+.fc-toolbar .fc-state-down {
+  z-index: 3; }
+
+.fc-toolbar .fc-state-active,
+.fc-toolbar .ui-state-active {
+  z-index: 4; }
+
+.fc-toolbar button:focus {
+  z-index: 5; }
+
+/* View Structure
+----------------------------------------------------*/
+/* undo twitter bootstrap's box-sizing rules. normalizes
+ positioning techniques */
+/* don't do this for the toolbar because we'll want bootstrap 
+to style those buttons as some pt */
+.fc-view-container *,
+.fc-view-container *:before,
+.fc-view-container *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+.fc-view,
+.fc-view > table {
+  /* so dragged elements can be above the view's main element */
+  position: relative;
+  z-index: 1; }
+
+/* BasicView
+---------------------------------------------------------*/
+/* day row structure */
+.fc-basicWeek-view .fc-content-skeleton,
+.fc-basicDay-view .fc-content-skeleton {
+  /* there may be week numbers in these views, so no padding-top */
+  padding-bottom: 1em;
+  /* ensure a space at bottom of cell for user selecting/clicking */ }
+
+.fc-basic-view .fc-body .fc-row {
+  min-height: 4em;
+  /* ensure that all rows are at least this tall */ }
+
+/* a "rigid" row will take up a constant amount of height
+because content-skeleton is absolute */
+.fc-row.fc-rigid {
+  overflow: hidden; }
+
+.fc-row.fc-rigid .fc-content-skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+/* week and day number styling */
+.fc-day-top.fc-other-month {
+  opacity: 0.3; }
+
+.fc-basic-view .fc-week-number,
+.fc-basic-view .fc-day-number {
+  padding: 2px;
+  color: rgba(52,40,104,.8);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.fc-basic-view th.fc-week-number,
+.fc-basic-view th.fc-day-number {
+  padding: 0 2px;
+  /* column headers can't have as much v space */ }
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+  float: right; }
+
+.fc-rtl .fc-basic-view .fc-day-top .fc-day-number {
+  float: left; }
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-week-number {
+  float: left;
+  border-radius: 0 0 3px 0; }
+
+.fc-rtl .fc-basic-view .fc-day-top .fc-week-number {
+  float: right;
+  border-radius: 0 0 0 3px; }
+
+.fc-basic-view .fc-day-top .fc-week-number {
+  min-width: 1.5em;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #808080; }
+
+/* when week/day number have own column */
+.fc-basic-view td.fc-week-number {
+  text-align: center; }
+
+.fc-basic-view td.fc-week-number > * {
+  /* work around the way we do column resizing and ensure a minimum width */
+  display: inline-block;
+  min-width: 1.25em; }
+
+/* AgendaView all-day area
+---------------------------------------------------------*/
+.fc-agenda-view .fc-day-grid {
+  position: relative;
+  z-index: 2;
+  /* so the "more.." popover will be over the time grid */ }
+
+.fc-agenda-view .fc-day-grid .fc-row {
+  min-height: 3em;
+  /* all-day section will never get shorter than this */ }
+
+.fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {
+  padding-bottom: 1em;
+  /* give space underneath events for clicking/selecting days */ }
+
+/* TimeGrid axis running down the side (for both the all-day area and the slot area)
+----------------------------------------------------------*/
+.fc .fc-axis {
+  /* .fc to overcome default cell styles */
+  vertical-align: middle;
+  padding: 0 4px;
+  white-space: nowrap; }
+
+.fc-ltr .fc-axis {
+  text-align: right; }
+
+.fc-rtl .fc-axis {
+  text-align: left; }
+
+/* TimeGrid Structure
+-------------------------------------------------------*/
+.fc-time-grid-container,
+.fc-time-grid {
+  /* so slats/bg/content/etc positions get scoped within here */
+  position: relative;
+  z-index: 1; }
+
+.fc-time-grid {
+  min-height: 100%;
+  /* so if height setting is 'auto', .fc-bg stretches to fill height */ }
+
+.fc-time-grid table {
+  /* don't put outer borders on slats/bg/content/etc */
+  border: 0 hidden transparent; }
+
+.fc-time-grid > .fc-bg {
+  z-index: 1;
+  background: #fff;
+}
+
+.fc-time-grid .fc-slats,
+.fc-time-grid > hr {
+  /* the <hr> AgendaView injects when grid is shorter than scroller */
+  position: relative;
+  z-index: 2; }
+
+.fc-time-grid .fc-content-col {
+  position: relative;
+  /* because now-indicator lives directly inside */ }
+
+.fc-time-grid .fc-content-skeleton {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+/* divs within a cell within the fc-content-skeleton */
+.fc-time-grid .fc-business-container {
+  position: relative;
+  z-index: 1; }
+
+.fc-time-grid .fc-bgevent-container {
+  position: relative;
+  z-index: 2; }
+
+.fc-time-grid .fc-highlight-container {
+  position: relative;
+  z-index: 3; }
+
+.fc-time-grid .fc-event-container {
+  position: relative;
+  z-index: 4; }
+
+.fc-time-grid .fc-now-indicator-line {
+  z-index: 5; }
+
+.fc-time-grid .fc-helper-container {
+  /* also is fc-event-container */
+  position: relative;
+  z-index: 6; }
+
+/* TimeGrid Slats (lines that run horizontally)
+----------------------------------------------------------------*/
+.fc-time-grid .fc-slats td {
+  height: 1.5em;
+  border-bottom: 0;
+  padding: 10px;
+  /* each cell is responsible for its top border */ }
+.fc-agendaDay-view .fc-time-grid .fc-slats td{
+  background: #ffffff;
+}
+.fc-time-grid .fc-slats .fc-minor td {
+  border-top-style: dotted; }
+
+/* TimeGrid Highlighting Slots
+--------------------------------------------------------------------*/
+.fc-time-grid .fc-highlight-container {
+  /* a div within a cell within the fc-highlight-skeleton */
+  position: relative;
+  /* scopes the left/right of the fc-highlight to be in the column */ }
+
+.fc-time-grid .fc-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* top and bottom will be in by JS */ }
+
+/* TimeGrid Event Containment
+------------------------------------------------------------------*/
+.fc-ltr .fc-time-grid .fc-event-container {
+  /* space on the sides of events for LTR (default) */
+  margin: 0 2.5% 0 2px; }
+
+.fc-rtl .fc-time-grid .fc-event-container {
+  /* space on the sides of events for RTL */
+  margin: 0 2px 0 2.5%; }
+
+.fc-time-grid .fc-event,
+.fc-time-grid .fc-bgevent {
+  position: absolute;
+  z-index: 1;
+  /* scope inner z-index's */ }
+
+.fc-time-grid .fc-bgevent {
+  /* background events always span full width */
+  left: 0;
+  right: 0; }
+
+/* Generic Vertical Event
+------------------------------------------------------------------------*/
+.fc-v-event.fc-not-start {
+  /* events that are continuing from another day */
+  /* replace space made by the top border with padding */
+  border-top-width: 0;
+  padding-top: 1px;
+  /* remove top rounded corners */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.fc-v-event.fc-not-end {
+  /* replace space made by the top border with padding */
+  border-bottom-width: 0;
+  padding-bottom: 1px;
+  /* remove bottom rounded corners */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+
+/* TimeGrid Event Styling
+--------------------------------------------------------------------
+We use the full "fc-time-grid-event" class instead of using descendants because the event won't
+be a descendant of the grid when it is being dragged.
+*/
+.fc-time-grid-event {
+  overflow: hidden;
+  /* don't let the bg flow over rounded corners */ }
+
+.fc-time-grid-event.fc-selected {
+  /* need to allow touch resizers to extend outside event's bounding box */
+  /* common fc-selected styles hide the fc-bg, so don't need this anyway */
+  overflow: visible; }
+
+.fc-time-grid-event.fc-selected .fc-bg {
+  display: none;
+  /* hide semi-white background, to appear darker */ }
+
+.fc-time-grid-event .fc-content {
+  overflow: hidden;
+  /* for when .fc-selected */ }
+
+.fc-time-grid-event .fc-time,
+.fc-time-grid-event .fc-title {
+  padding: 0 1px; }
+
+.fc-time-grid-event .fc-time {
+  font-size: .85em;
+  white-space: nowrap; }
+
+/* short mode, where time and title are on the same line */
+.fc-time-grid-event.fc-short .fc-content {
+  /* don't wrap to second line (now that contents will be inline) */
+  white-space: nowrap; }
+
+.fc-time-grid-event.fc-short .fc-time,
+.fc-time-grid-event.fc-short .fc-title {
+  /* put the time and title on the same line */
+  display: inline-block;
+  vertical-align: top; }
+
+.fc-time-grid-event.fc-short .fc-time span {
+  display: none;
+  /* don't display the full time text... */ }
+
+.fc-time-grid-event.fc-short .fc-time:before {
+  content: attr(data-start);
+  /* ...instead, display only the start time */ }
+
+.fc-time-grid-event.fc-short .fc-time:after {
+  content: "\A0-\A0";
+  /* seperate with a dash, wrapped in nbsp's */ }
+
+.fc-time-grid-event.fc-short .fc-title {
+  font-size: .85em;
+  /* make the title text the same size as the time */
+  padding: 0;
+  /* undo padding from above */ }
+
+/* resizer (cursor device) */
+.fc-time-grid-event.fc-allow-mouse-resize .fc-resizer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  overflow: hidden;
+  line-height: 8px;
+  font-size: 11px;
+  font-family: monospace;
+  text-align: center;
+  cursor: s-resize; }
+
+.fc-time-grid-event.fc-allow-mouse-resize .fc-resizer:after {
+  content: "="; }
+
+/* resizer (touch device) */
+.fc-time-grid-event.fc-selected .fc-resizer {
+  /* 10x10 dot */
+  border-radius: 5px;
+  border-width: 1px;
+  width: 8px;
+  height: 8px;
+  border-style: solid;
+  border-color: inherit;
+  background: #fff;
+  /* horizontally center */
+  left: 50%;
+  margin-left: -5px;
+  /* center on the bottom edge */
+  bottom: -5px; }
+
+/* Now Indicator
+---------------------------------------------*/
+.fc-time-grid .fc-now-indicator-line {
+  border-top-width: 1px;
+  left: 0;
+  right: 0; }
+
+/* arrow on axis */
+.fc-time-grid .fc-now-indicator-arrow {
+  margin-top: -5px;
+  /* vertically center on top coordinate */ }
+
+.fc-ltr .fc-time-grid .fc-now-indicator-arrow {
+  left: 0;
+  /* triangle pointing right... */
+  border-width: 5px 0 5px 6px;
+  border-top-color: transparent;
+  border-bottom-color: transparent; }
+
+.fc-rtl .fc-time-grid .fc-now-indicator-arrow {
+  right: 0;
+  /* triangle pointing left... */
+  border-width: 5px 6px 5px 0;
+  border-top-color: transparent;
+  border-bottom-color: transparent; }
+
+/* List View
+----------------------------------------------*/
+/* possibly reusable */
+.fc-event-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px; }
+
+/* view wrapper */
+.fc-rtl .fc-list-view {
+  direction: rtl;
+  /* unlike core views, leverage browser RTL */ }
+
+.fc-list-view {
+  border-width: 1px;
+  border-style: solid; }
+
+/* table resets */
+.fc .fc-list-table {
+  table-layout: auto;
+  /* for shrinkwrapping cell content */ }
+
+.fc-list-table td {
+  border-width: 1px 0 0;
+  padding: 8px 14px; }
+
+.fc-list-table tr:first-child td {
+  border-top-width: 0; }
+
+/* day headings with the list */
+.fc-list-heading {
+  border-bottom-width: 1px; }
+
+.fc-list-heading td {
+  font-weight: bold; }
+
+.fc-ltr .fc-list-heading-main {
+  float: left; }
+
+.fc-ltr .fc-list-heading-alt {
+  float: right; }
+
+.fc-rtl .fc-list-heading-main {
+  float: right; }
+
+.fc-rtl .fc-list-heading-alt {
+  float: left; }
+
+/* event list items */
+.fc-list-item.fc-has-url {
+  cursor: pointer;
+  /* whole row will be clickable */ }
+
+.fc-list-item-marker,
+.fc-list-item-time {
+  white-space: nowrap;
+  width: 1px; }
+
+/* make the dot closer to the event title */
+.fc-ltr .fc-list-item-marker {
+  padding-right: 0; }
+
+.fc-rtl .fc-list-item-marker {
+  padding-left: 0; }
+
+.fc-list-item-title a {
+  /* every event title cell has an <a> tag */
+  text-decoration: none;
+  color: inherit; }
+
+.fc-list-item-title a[href]:hover {
+  /* hover effect only on titles with hrefs */
+  text-decoration: underline; }
+
+/* message when no events */
+.fc-list-empty-wrap2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.fc-list-empty-wrap1 {
+  width: 100%;
+  height: 100%;
+  display: table; }
+
+.fc-list-empty {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+.fc-unthemed .fc-list-empty {
+  /* theme will provide own background */
+  background-color: #eee; }
+
+
+.fc th.fc-day-header{
+    padding: 11px 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fc-day.fc-today{
+    background: rgba(52,40,104,.03);
+}
+.fc-day.alert-info{
+    background: rgba(52,40,104,.03);
+}
+
+.datepicker{
+   z-index: 123456;
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  background: #F3F5F9;
+}
+.card{
+  border: 0;
+  background: transparent;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: #002147;
+  margin-bottom: 20px;
+}
+.btn{
+  font-size: 12px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  font-family: 'Nunito', sans-serif;
+  box-shadow: none !important;
+  /*border: 0;*/
+  padding: 10px 20px;
+}
+.btn:focus{
+  box-shadow: none;
+}
+.btn.btn-primary{
+  background: #002147;
+  color: #ffffff;
+}
+.form-group label{
+  /*font-weight: 600;*/
+  letter-spacing: 0.010em;
+  /*font-size: 18px;*/
+  margin-bottom: 5px;
+}
+.modal-body{
+  background: #F3F5F9;
+  border-radius: 10px;
+}
+.modal-body h4{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: #002147;
+  margin-bottom: 20px;
+}
+.modal-body .form-control{
+  box-shadow: none;
+  height: 50px;
+}
+
+
+/* related product */
+.related-product{
+   padding: 80px 0;
+}
+.related-product .container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.related-product ul{
+  padding: 0;
+  margin: 0;
+}
+.related-product ul li{  
+   margin-bottom: 30px;
+  list-style-type: none;
+}
+.related-product ul li h3{
+   font-weight: 700;
+   font-size: 24px;
+   padding: 20px 0;
+}
+.related-product ul li a{
+   font-weight: 600;
+   color: #3b484a;
+   text-align: center;
+}
+.related-product ul li a img{
+  max-width: 100%;
+  display: block;
+}
+.related-box{
+   max-width: 400px;
+   margin: 0 auto;
+}
+.download-btn{
+  padding: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+.download-btn .fa{
+  font-size: 40px;
+  margin-right: 10px;
+}
+/*Custom styling*/
+.btn-group .btn.active {
+    color: #fff;
+    background-color: #24bec6 !important;
+    border-color: unset;
+ }
+ .btn-group .btn:hover {
+    color: #212529;
+    background-color: #24bec6 !important;
+ }
+ .fc-today-button{
+   color: #fff;
+   background-color: #24bec6 !important;
+ }
+ .cndr-hdr h2{
+   text-align: left !important;
+ }
+.fc-toolbar .fc-left h2{
+   position: absolute;
+   display: inline-block;
+   left: 42%;
+}
+/*************Calendar redirects to add event*******/
+.evt-ttl{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+.tillEvnt{
+   position: absolute;
+   left: 48.6%;
+   top: 40px;
+}
+.evnt-info{
+   position: relative;
+}
+.eventAdd .row input{
+   padding-left: 4px;
+}
+/*********************************************** Calendar Page ends **************************************/
+/*********************************************** View Repayment Starts **************************************/
+
+.rplymntTbl .custom-checkbox{
+  text-align: center;
+}
+/*********************************************** View Repayment ends **************************************/
+
+/*********************************************** Approve payments starts **************************************/
+
+.apprvBtn{
+  display: flex;
+  justify-content: space-between;
+}
+.collsp p{
+  font-weight: 600;
+
+}
+.collsp a{
+  color: #24bec6 !important;
+}
+.advSrch .card{
+  background-color: #fff;
+  box-shadow: 0 1px 11px 0 rgb(0 0 0 / 12%);
+}
+.advSrcFltr .form-group label{
+  font-size: 12px ! important;
+  font-weight: unset;
+}
+.optlfeld{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.sortLoan{
+  width: 300px;
+}
+.addRplyment .form-control{
+  font-size: 11px ! important;
+}
+.tltSbt{
+  display: flex;
+  justify-content: space-between;
+}
+#chartdiv {
+  width: 100%;
+  height: 450px;
+}
+#chartdiv1 {
+  width: 100%;
+  height: 500px;
+}
+.apprvBtn .btn{
+  font-size: 10px ! important;
+}
+/*********************************************** Approve payments ends **************************************/
+
+/*********************************************** View Investors starts **************************************/
+
+.spcBtw{
+  display: flex;
+  justify-content: space-between;
+}
+/*********************************************** View Investors ends **************************************/
+
+/*********************************************** SMS Credits ends **************************************/
+.lnks{
+  color: #24bec6 !important;
+  font-size: 13px;
+}
+.smsCrdt{
+  padding: 20px;
+}
+.altSMS a{
+  text-decoration: underline;
+}
+.requedFlds .card{
+  padding: 20px ! important;
+}
+/*********************************************** SMS Credits ends **************************************/
+
+/*********************************************** cash flow acculated starts **************************************/
+.cntrTxt{
+  text-align: center;
+  padding-top: 15px;
+}
+.recpts li.list-group-item.list-group-item-action.active{
+  background-color: #fafafa !important;
+ /* color: #fff ! important;*/
+ color: #495057;
+}
+.recpts p{
+  font-weight: 600;
+}
+.recpts a{
+  color: #24bec6 !important;
+  text-decoration: underline ! important;
+  font-weight: 400 ! important;
+}
+.recptH{
+  color: #24bec6 !important;
+}
+.recpts li{
+  border: 1px solid #f1efef;
+  padding: 2px 8px ! important;
+}
+.recptF{
+  border-bottom: 1px solid #495057 ! important;
+}
+.cashflw th{
+  font-size: 13px ;
+}
+
+.snm{
+  text-align: right;
+}
+
+/*********************************************** Cash flow acculated ends **************************************/
+
+/*********************************************** Loan Module starts **************************************/
+.loanAdd .evt-ttl{
+   margin-top: 1.5rem;
+}
+.sub-checkbx{
+   padding-left: 20px;
+}
+
+/**************************************Reportend Loans*******************************************/
+
+.loanDoc img{
+  width: 40px;
+  height: 40px;
+}
+.reqtdLoans .tblHd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reqtdLoans .fas{
+  line-height: 2;
+  font-size: 20px;
+  /*padding: 4px 15px !important;*/
+}
+.reqtdLoans .addLead_btn{
+  padding: 5px 16px ! important;
+}
+.tblHd .title-terms{
+  padding-bottom: unset;
+}
+/*--------------------------------Company Director Details--------------------------------*/
+
+.loanDrtDtl .title-terms{
+  padding-bottom: unset;
+}
+.apy4Loan .title-terms{
+  padding-bottom: unset;
+}
+.prevNext_btnsaddAnt{
+  display: flex;
+  justify-content: space-around;
+}
+table.dataTable tbody th, table.dataTable tbody td{
+  padding: 18px 10px ! important;
+}
+/*------------------Ongoing Loans------------------------------*/
+.reqtdLoans .form-control{
+  width: 140px;
+}
+/*--------------------Invoices----------------------------------*/
+.invcs .container{
+  padding: 0px 9px;
+}
+.invcs .invoices{
+  margin-top: 20px;
+}
+
+/*******************************************Loan Detail **********************************/
+
+.loanDtl .row{
+  margin-bottom: 20px;
+}
+.loanDtl .card{
+  min-height: 400px;
+}
+.vlu{
+  color: #676767;
+}
+.loanDtl .card{
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff;
+}
+.ctnDtl .card{
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff;
+}
+.cstmDtl .card{
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff;
+}
+.ui-widget-header{
+  background: #24bec6 ! important;
+  border-color: #24bec6 ! important;
+}
+
+/*******************************************Settings **********************************/
+.sttnDiv li{
+  border: 1px solid rgba(0,0,0,.125) ! important;
+  padding: 1rem 1.25rem;
+  background-color: #fff ! important;
+  box-shadow: 1px 0px 9px -6px #707070;
+}
+.ntfs .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20rem; }
+.ntfs .toggle.ios .toggle-handle { border-radius: 20rem; 
+}
+.sttnDiv .toggle.btn{
+  width: 80px ! important;
+  height: 15px ! important;
+}
+.ntfs{
+  display: flex;
+  justify-content: space-between;
+}
+.sttnDiv i.fas{
+color: #737171;
+}
+.sttnDiv .btn.btn-primary{
+  background-color: #24bec6;
+}
+.pflDocx{
+  display: flex;
+}
+.pflDocx img{
+  width: 80px;
+  margin-right: 20px;
+}
+.pflDiv .row{
+  margin-bottom: 25px;
+}
+/****************************Profile Page***************************************/
+.usrImgDiv img{
+  width: 100px;
+  height: 100px;
+}
+.usrImgDiv h6{
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.usrImgDiv span{
+  font-size: 14px;
+  color: #868383;
+}
+.userPrlDtl .row{
+  margin-bottom: 25px;
+}
+.othrDtls .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  color: #24bec6 !important;
+  border-bottom: 2px solid #24bec6;
+  background-color: unset;
+  border-radius: unset;
+  }
+.othrDtls a#pills-profile-tab, .othrDtls a#pills-home-tab{
+  color: #24bec6 !important; ;
+}
+.BsnsDtl .row{
+  margin-bottom: 20px;
+}
+.edtPrf{
+  display: flex;
+  justify-content: space-between;
+}
+.cntprfDiv .card{
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff;
+}
+.edtprfl .card{
+  border: 1px solid rgba(0,0,0,.125);
+  background: unset;
+}
+/**********************************Change Password************************************/
+.chngPswd .form-group{
+  margin-top: 25px;
+}
+.chgPswd .card{
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff;
+  padding: 15px;
+}
+
+/****************************Notifications********************************************/
+
+.ntfSts{
+  display: flex;
+  justify-content: space-between;
+}
+/*.notfts .list-group-item{
+  padding: 0.75rem 4.25rem;
+}*/
+.notfts .badge{
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.tme{
+  color: #8c8b8b;
+  font-size: 13px;
+}
+.notfts p{
+  font-size: 14px;
+  color: Black;
+}
+.notfts .badge-primary{
+  background-color: #24bec6;
+}
+.edtprfl .main_row .start_btn{
+  height: unset;
+}
+.notfts .card {
+  border: 1px solid rgba(0,0,0,.125);
+  background: #fff ;
+  padding: 22px 20px;
+}
+/***************************************Chat Page***************************************/
+.lst img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+}
+.chtLst .badge-info{
+  border-radius: 50%;
+}
+.chtLst .list-group-item{
+  padding: .75rem 0.25rem;
+}
+.chtLst b{
+  font-size: 13px;
+}
+.chtLst small{
+  color: #8c8b8b;
+}
+.hlpSuprtSec section{
+  padding: unset;
+}
+
+/***************************************Chat Page***************************************/
+
+.img_left img {
+  width: 110px;
+  display: inline-block;
+}
+.sendr_vido {
+  width: 140px;
+  max-width: 140px;
+}
+
+.attch_clip input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  cursor: crosshair;
+  opacity: 0;
+}
+.write-msg-content .form-control {
+  height: 45px;
+}
+.sub-list-wrp{
+  max-height: 535px;
+}
+
+.user_chat_message{
+  word-wrap: break-word;
+}
+.chat-sidebar {
+  background: #fff;
+  float: left;
+  width: 100%;
+  box-shadow: 40px 0px 20px -52px #000;
+}
+.side_inbox {
+  height: 535px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+.chat_users li {
+  border-bottom: 1px solid #dddddd ! important;
+  background-color: #fff;
+  padding: 10px 6px;
+  position: relative;
+  cursor: pointer;
+}
+.usr-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.usr-img .img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.meta_chat_info {
+  width: calc(100% - 60px);
+  margin-left: 10px;
+}
+.nam_cht {
+  font-size: 14px;
+  font-weight: 600;
+}
+.online_dot {
+  font-size: 8px;
+  color: green;
+  position: relative;
+  top: -1px;
+}
+.usr_msg {
+  margin: 0;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #6d6d6d;
+  white-space: nowrap;
+}
+.usr-status {
+  color: #8c93fd;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 600;
+}
+.chat_users li.active_now {
+  background: #e4f9ff ! important;
+}
+.chat-body {
+  position: relative;
+  padding: 0px;
+}
+.top-head_in {
+  background: #f6f6f6;
+  padding: 10px 10px;
+}
+.top-head_in .img-fluid {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 100%;
+  display: inline-block;
+}
+.right_inf {
+  margin-left: 10px;
+}
+.nam_ch {
+  color: #24bec6;
+}
+.my-chat-convo.clearfix {
+  max-height: 405px;
+  min-height: 405px;
+  overflow-y: auto;
+}
+.my-chat-convo .msg-box {
+  background-color: #f9edcd ! important;
+  display: inline-block;
+  border-radius: 20px 20px 20px 0px;
+  padding: 5px 5px;
+  border-left: 1px solid #96a4bb;
+  box-shadow: 2px 2px 10px -7px #000;
+}
+.my-chat-convo li {
+  width: 60%;
+  margin: 5px 5px;
+}
+.my-chat-convo li .msg-time {
+  font-size: 11px;
+  font-style: italic;
+  float: right;
+  font-weight: bold;
+}
+.write-msg-content {
+  background: #efefef;
+  padding: 10px 10px;
+}
+.pos_rel {
+  position: relative;
+}
+.attch_clip {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid #8d8d8d;
+  text-align: center;
+  line-height: 35px;
+  overflow: hidden;
+  font-size: 19px;
+}
+/*input[type="file"].form-control {
+  height: unset;
+}*/
+.attch_clip input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  cursor: crosshair;
+  opacity: 0;
+}
+.write-msg-content input {
+  border: 1px solid #bdbdbd;
+  padding: 0 80px 0 46px;
+  border-radius: 50px;
+}
+.write-msg-content .btn {
+  position: absolute;
+  background: #24bec6;
+  cursor: pointer;
+  right: 14px;
+  bottom: 13.8px;
+  height: 40px;
+  padding: 0px 25px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 30px;
+  line-height: unset;
+  height: 38px;
+}
+.img_left {
+  width: 120px;
+  height: 150px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.img_left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.my-chat-convo li.pull-right .msg-time {
+  float: left;
+}
+.chat_users {
+  padding: 0;
+}
+.offline_dot {
+  font-size: 8px;
+  color: gray;
+  position: relative;
+  top: -1px;
+}
+.msg-box.pull-right {
+  background-color: #e4f9ff ! important;
+  text-align: right;
+  border-left: 0;
+  border-right: 1px solid #b6afaf;
+  border-radius: 20px 20px 0px 20px;
+}
+.chart_db_sec .card{
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125); ;
+}
+.chat_users i{
+  font-size: 8px;
+}
+.write-msg-content .btn-green i{
+  font-size: 14px;
+}
+.user_chat_prnt p{
+  color: #212529;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*------------------------30 jul-------------------------------*/
+.ctnDtl .row, .cstmDtl .row{
+  margin-bottom: 15px;
+}
+.ongngLoans table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px;
+}
+.applyLoanDiv  .required::after{
+  content: "*";
+  color: red;
+  font-size: 18px;
+}

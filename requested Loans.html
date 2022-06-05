@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Requested Loans</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css "/>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="top-header">
+		<div class="custom_container">
+			<div class="row">
+				<div class="social-icon text-left col-sm-5">
+					<ul class="list-inline">
+						<li class="list-inline-item">
+							<a class="nav-link" routerLink="/homepage">PROVIDING A LENDING HAND FOR YOUR BUSINESS</a>
+						</li>					
+					</ul>
+				</div>
+				<div class="top-logins text-right col-sm-7">
+					<ul class="list-inline">
+						<li class="active list-inline-item">
+							<span>CALL US AT + 23- 242342543</span>
+						</li>
+						<li class=" list-inline-item">
+							<span>MON TO FRI 10 :00AM-06:00 PM</span>
+						</li> 
+						<li class=" list-inline-item">
+							<span>GET STARTED TODAY</span>
+						</li>                
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header class="header_home">
+		<div class="custom_container">
+
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="#">
+					<img src="images/logo1.png" class="img-fluid">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto nav_div dashboard_ul">
+						<li class="nav-item active">
+							<a class="nav-link" routerLink="/homepage">About Us</a>
+						</li>
+						<li class="nav-item">
+							<div class="dropdown show">
+							<a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" routerLink="/exams">Our Services</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							</div>
+							</div>
+						</li>
+						<li class="nav-item mt-2 text-center d-flex">
+              <span class="">
+                        <img src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/demo-3/img/user-13.005c80e1.jpg" class="img-fluid testimonial-img">
+                      </span><br>
+                    <h6 class="user_name">Marry Dactyl</h6>
+            </li>
+					</ul>
+					
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	
+	<!-- header -->
+
+  <div class="wrapper">
+    <div class="sidebar">
+        <ul class="sidebar_ul">
+            <li><a href="#"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+             <li><a href="notifications.html"><i class="fas fa-bell"></i>Notifications(5)</a></li>
+            <li><a href="requested Loans.html"><i class="fa fa-address-card"></i>Loan Request</a></li>
+            <li><a href="ongoingLoans.html"><i class="fa fa-credit-card"></i>Ongoing Loans</a></li>
+            <li><a href="#"><i class="fas fa-sack-dollar"></i>Make Payments</a></li>
+            <li><a href="Invoices.html"><i class="fas fa-sticky-note"></i>Invoices</a></li>
+            <li><a href="settings.html"><i class="fa fa-cogs"></i>Settings</a></li>
+            <li><a href="help&Support.html"><i class="fa fa-info-circle"></i>Help & Support</a></li>
+            <li><a href="signIn.html"><i class="fa fa-sign-out"></i>Log Out</a></li>
+        </ul>
+        <div class="social_media"> <a href="#"><i class="fa fa-facebook-f"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> </div>
+    </div>
+
+    <div class="main_content leads_section">
+        <div class="inner_content">
+          <div class="leads_detail reqtdLoans">
+            <div class="card">
+              <div class="tblHd">
+                <div class="section-title title-terms text-center">
+                  <h2>Requested Loans</h2>                     
+                </div>
+                <div class="d-flex filters_div mb-3">
+                  <div class="add_bttn mr-3">
+                    <a href="applyForLoan.html" class="btn addLead_btn">
+                      <i class="fas fa-plus"></i>
+                    </a>
+                  </div>     
+                </div>
+              </div>
+              <div class="card-body">
+               
+                <div class="table-responsive loanDoc">
+                  <table class="table">
+                  <thead class="thead-light">
+                    <tr class="text-center">
+                      <th>S No.</th>
+                      <th>Loan Id</th>
+                      <th>Loan Type</th>
+                      <th>Invoice No</th>
+                      <th>Estimated Discount</th>
+                      <th>Invoice Amount</th>
+                      <th>Duration</th>
+                      <th>Facility Term</th>
+                      <th>Other Finance</th>
+                      <th>Attached Docs</th>
+                      <th>Status</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="text-center">
+                      <td>1</td>
+                      <td>121334</td>
+                      <td>Invoice Factoring</td>
+                      <td>312w34</td>
+                      <td>234UGX</td>
+                      <td>457UGX</td>
+                      <td>3Months</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="images/Financial-Management.jpg"></td>
+                      <td>Pending</td>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="completion mr-2">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <i class="fas fa-pen"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <a href="#">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>2</td>
+                      <td>121334</td>
+                      <td>Invoice Factoring</td>
+                      <td>312w34</td>
+                      <td>234UGX</td>
+                      <td>457UGX</td>
+                      <td>3Months</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="images/Financial-Management.jpg"></td>
+                      <td>Pending</td>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="completion mr-2">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <i class="fas fa-pen"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <a href="#">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>3</td>
+                      <td>121334</td>
+                      <td>Invoice Factoring</td>
+                      <td>312w34</td>
+                      <td>234UGX</td>
+                      <td>457UGX</td>
+                      <td>3Months</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="images/Financial-Management.jpg"></td>
+                      <td>Pending</td>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="completion mr-2">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <i class="fas fa-pen"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <a href="#">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>4</td>
+                      <td>121334</td>
+                      <td>Invoice Factoring</td>
+                      <td>312w34</td>
+                      <td>234UGX</td>
+                      <td>457UGX</td>
+                      <td>3Months</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="images/Financial-Management.jpg"></td>
+                      <td>Pending</td>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="completion mr-2">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <i class="fas fa-pen"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <a href="#">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>5</td>
+                      <td>121334</td>
+                      <td>Invoice Factoring</td>
+                      <td>312w34</td>
+                      <td>234UGX</td>
+                      <td>457UGX</td>
+                      <td>3Months</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="images/Financial-Management.jpg"></td>
+                      <td>Pending</td>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="completion mr-2">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <i class="fas fa-pen"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <a href="#">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>6</td>
+                      <td>121334</td>
+                      <td>Invoice Factoring</td>
+                      <td>312w34</td>
+                      <td>234UGX</td>
+                      <td>457UGX</td>
+                      <td>3Months</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="images/Financial-Management.jpg"></td>
+                      <td>Pending</td>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="completion mr-2">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <i class="fas fa-pen"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <a href="#">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>7</td>
+                      <td>121334</td>
+                      <td>Invoice Factoring</td>
+                      <td>312w34</td>
+                      <td>234UGX</td>
+                      <td>457UGX</td>
+                      <td>3Months</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="images/Financial-Management.jpg"></td>
+                      <td>Pending</td>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <span class="completion mr-2">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <i class="fas fa-pen"></i>
+                          </span>
+                          <span class="completion mr-2">
+                            <a href="#">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                  </table>
+              </div>     
+              </div>
+            </div>
+          </div>     
+        </div>   
+    </div>
+</div>
+
+    
+
+
+	
+
+	<!-- footer -->
+    <footer id="footer" class="wrap-bg-secondary">
+        
+        <div class="footer_copyy">
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="copyright text-left">
+                                <p class="mt-3">Copyright © 2020. All Rights Reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-right ">
+                            <div class="icon-round-white footer-social mt-1">
+                            <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>                    
+                            <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cd-top"></div>
+            </div>
+        </div>
+    </footer>
+	
+</body>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js" integrity="sha512-7yA/d79yIhHPvcrSiB8S/7TyX0OxlccU8F/kuB8mHYjLlF1MInPbEohpoqfz0AILoq5hoD7lELZAYYHbyeEjag==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/parallax.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#example').DataTable( {
+        "order": [[ 3, "desc" ]]
+    } );
+} );
+</script>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+</html>
