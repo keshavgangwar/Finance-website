@@ -9902,8 +9902,8 @@ a:focus {
 }
 
 .btn_clr{
-  background-color: #24bec6;
-  color: #fff;
+  background-color: #24bec6 ! important;
+  color: #fff ! important;
 }
 
 .bg-gradient-theme {
@@ -11519,40 +11519,83 @@ input:checked + .slider:before {
 .clntDtl{
   padding: 20px;
 }
-.crdtScr{
-  display: flex;
-}
-.creditScr{
-  margin-left: 127px;
-  padding-top: 20px;
-}
 .prslDtl i{
   font-size: 10px;
   color: #24bec6;
 }
-.prsnl_card .clntDtl{
-  border-right: 2px #9194A6 dashed; 
+.tracks .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+color: #fff;
+background-color: #24bec6;
 }
-.mngDtl{
-  justify-content: space-between; 
+.tracks{
+  display: flex;
+  justify-content: space-between;
 }
-.mngDtl a{
-  text-decoration: underline;
+.tracks .form-control{
+  width: 20%;
 }
-.dcsImg img{
-  width: 80px;
-  height: 80px;
+.usrDtl .form-control{
+  width: 35%;
+}
+input#IntrstRte {
+    width: 70%;
+}
+.servTask .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  background-color: unset;
+  color: #24bec6;
+  border-bottom: 3px solid #24bec6;
+  border-radius: 0px;
+} 
+.servTask .nav-link:hover{
+color: #24bec6; ! important;
+}
+.servDtl{
+  display: flex;
+  justify-content: space-between;
+}
+.servTask .form-control{
+  display: unset;
+  width: 200px ! important;
+}
+.servTask{
+  display: flex;justify-content: space-between;
 }
 .pymntSts i{
-  font-size: 8px;
-  color: #24bec6;
+  font-size: 10px;
+  color: #24bec6; 
 }
 .pymntSts .form-control{
-  width: 42%;
+  width: 250px ! important;
+  display: unset;
 }
-.IntrstRte select{
-  color: #858796;
+.vPfl{
+  text-decoration: underline; 
 }
-.intrstRate{
-  text-align: right;
+.save{
+  font-size: 18px;
+}
+/*-----------------------Disputes------------------------------*/
+.DsptsType select{
+  width: 25%;
+}
+/*-------------------Bank Files-------------------------------------*/
+.exptbnkFls{
+  display: flex;
+  justify-content:space-between ;
+  margin-bottom: 20px;
+}
+.flDt{
+  align-items: center;
+}
+.savedFiles i{
+  font-size: 50px;
+}
+.savedFiles td{
+  padding: 40px 10px;
+}
+/*------------------------Settings------------------------------*/
+.box_1{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25); ;
 }
