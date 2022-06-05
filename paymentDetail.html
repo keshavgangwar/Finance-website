@@ -26,7 +26,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-          <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
+           <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -39,7 +39,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="managersManagement.html">
+                <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
                 </a>
@@ -90,11 +90,11 @@
                     <span>Payments Management</span>
                 </a>
             </li>
-           <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#repoMgmt"
                     aria-expanded="true" aria-controls="repoMgmt">
                     <i class="fas fa-fw fa-file-contract"></i>
-                    <span>Content Management</span>
+                    <span>General Management</span>
                 </a>
                 <div id="repoMgmt" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
@@ -106,17 +106,46 @@
                     </div>
                 </div>
             </li>
+           <li class="nav-item">
+                <a class="nav-link" href="contentManagement.html">
+                    <i class="fas fa-fw fa-vector-square"></i>
+                    <span>Content Management</span>
+                </a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" href="reportsManagement.html">
+                <a class="nav-link" href="reportManagement.html">
                     <i class="fas fa-fw fa-file-contract"></i>
                     <span>Reports Management</span>
                 </a>
             </li>
 
-         
+           
+
+            
+
+           
+
+            
+
+           
 
             <!-- Nav Item - Utilities Collapse Menu -->
-         
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#repoMgmt"
+                    aria-expanded="true" aria-controls="repoMgmt">
+                    <i class="fas fa-fw fa-file-contract"></i>
+                    <span>General Management</span>
+                </a>
+                <div id="repoMgmt" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="JavaScript:;">Terms & Conditions</a>
+                        <a class="collapse-item" href="JavaScript:;">Privacy Policy</a>
+                        <a class="collapse-item" href="JavaScript:;">About Us</a>
+                        <a class="collapse-item" href="JavaScript:;">Contact us</a>
+                    </div>
+                </div>
+            </li>
 
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
@@ -327,7 +356,6 @@
                             <div class="card shadow mb-4  ">
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between prsl_div">
                                     <h6 class="m-0 font-weight-bold txt_thmColor">Transaction Details</h6>
-                                    <p>Status:- <b><span class="text-success">Completed</span></b></p>
                                    <!--  <a href="editUserDetails.html"><i class="fas fa-edit fa-sm" aria-hidden="true"></i></a> -->
                                 </div>
                                <!-- Card Body -->
@@ -365,7 +393,7 @@
                                             <a href="#" class="btn btn_clr btn-user mr-3">
                                                 Export
                                             </a>
-                                            <a href="paymentManagement.html" class="btn btn_clr btn-user">
+                                            <a href="#" class="btn btn_clr btn-user">
                                                 Back
                                             </a>
                                         </div>
@@ -377,8 +405,17 @@
                     <div class="card shadow mb-4">
                          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between prsl_div">
                             <h6 class="m-0 font-weight-bold txt_thmColor">Recent Transaction Details</h6>
+                            <a href="editUserDetails.html"><i class="fas fa-edit fa-sm" aria-hidden="true"></i></a>
                         </div>
-                        <div class="card-body">                
+                        <div class="card-body">
+                            <div class="mb-4 text-right addmngr">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Newly Received</option>
+                                  <option>Old Payments</option>
+                                </select>
+                                                            
+                            </div>
+                            
                             <div class="table-responsive manager_tbl">
                                 <table class="table table-bordered user_table" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
@@ -402,7 +439,7 @@
                                             <td>Invoice Discounting</td>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#">
+                                                    <a href="editUserDetails.html">
                                                       <span class="completion mr-2">
                                                             <i class="fas fa-pen"></i>
                                                       </span>
@@ -416,7 +453,7 @@
                                             </td>   
                                         </tr>
                                       <tr>
-                                            <td>2</td>
+                                            <td>1</td>
                                             <td>Joey</td>
                                             <td>9876543210</td>
                                             <td>567</td>
@@ -424,7 +461,7 @@
                                             <td>Invoice Discounting</td>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#">
+                                                    <a href="editUserDetails.html">
                                                       <span class="completion mr-2">
                                                             <i class="fas fa-pen"></i>
                                                       </span>
@@ -438,7 +475,7 @@
                                             </td>   
                                         </tr>
                                         <tr>
-                                            <td>3</td>
+                                            <td>1</td>
                                             <td>Joey</td>
                                             <td>9876543210</td>
                                             <td>567</td>
@@ -446,7 +483,7 @@
                                             <td>Invoice Discounting</td>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#">
+                                                    <a href="editUserDetails.html">
                                                       <span class="completion mr-2">
                                                             <i class="fas fa-pen"></i>
                                                       </span>
@@ -460,7 +497,7 @@
                                             </td>   
                                         </tr>
                                        <tr>
-                                            <td>4</td>
+                                            <td>1</td>
                                             <td>Joey</td>
                                             <td>9876543210</td>
                                             <td>567</td>
@@ -468,7 +505,7 @@
                                             <td>Invoice Discounting</td>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#">
+                                                    <a href="editUserDetails.html">
                                                       <span class="completion mr-2">
                                                             <i class="fas fa-pen"></i>
                                                       </span>
@@ -482,7 +519,7 @@
                                             </td>   
                                         </tr>
                                         <tr>
-                                            <td>5</td>
+                                            <td>1</td>
                                             <td>Joey</td>
                                             <td>9876543210</td>
                                             <td>567</td>
@@ -490,7 +527,7 @@
                                             <td>Invoice Discounting</td>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <a href="#">
+                                                    <a href="editUserDetails.html">
                                                       <span class="completion mr-2">
                                                             <i class="fas fa-pen"></i>
                                                       </span>

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Settings</title>
+    <title>Bank Files</title>
 
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -116,7 +116,7 @@
                 </a>
             </li>
              <li class="nav-item">
-                <a class="nav-link" href="savedFiles.html">
+                <a class="nav-link" href="reportManagement.html">
                     <i class="fas fa-fw fa-file-contract"></i>
                     <span>Saved Files</span>
                 </a>
@@ -339,103 +339,144 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Settings</h1>
+                    <div class="exptbnkFls">
+                         <h1 class="h3 mb-2 text-gray-800">Bank Files</h1>
+                         <a href="#" class="btn btn_clr btn-user">
+                            Export Files
+                        </a>   
+                    </div>
+                  
+                    
                     <div class="card shadow mb-4">
                         <div class="card-body">
-                            <div class="rptsDiv">
-                                <div class=" box_1 p-3 mb-4 bg-white">Submit & Schedule Notation
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Send User Details
-                                    <a data-toggle="modal" data-target="#exampleModal">
-                                        <div class="icons_div">
-                                            <i class="fas fa-chevron-down"></i>
-                                        </div>
-                                    </a>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">E-mail to Customer
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Schedule to Account
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Invoice Approval
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Credit Limit
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Request Client Collection Assitance
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Customer E-mail Blast
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">E-mail Verification
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Document Request
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Prospect Approval E-mail
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Statement E-mail
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Invoice Acknowledgement to Customer
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
+                            
+                            <div class="table-responsive manager_tbl">
+                                <table class="table table-bordered user_table" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>S No.</th>
+                                            <th>Client Name</th>
+                                            <th>Contact number</th>
+                                            <th>Email Address</th>
+                                            <th>Active Services</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>merry@gmail.com</td>
+                                            <td>Invoice Billing</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-info-circle"></i>
+                                                      </span>
+                                                    </a> 
+                                                    <a href="bankfileDetails.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>   
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                      <tr>
+                                            <td>2</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>merry@gmail.com</td>
+                                            <td>Invoice Billing</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-info-circle"></i>
+                                                      </span>
+                                                    </a> 
+                                                    <a href="bankfileDetails.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>   
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>merry@gmail.com</td>
+                                            <td>Invoice Billing</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-info-circle"></i>
+                                                      </span>
+                                                    </a> 
+                                                    <a href="bankfileDetails.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>   
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                       <tr>
+                                            <td>4</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>merry@gmail.com</td>
+                                            <td>Invoice Billing</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-info-circle"></i>
+                                                      </span>
+                                                    </a> 
+                                                    <a href="bankfileDetails.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>   
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                       <tr>
+                                            <td>5</td>
+                                            <td>Joey</td>
+                                            <td>9876543210</td>
+                                            <td>merry@gmail.com</td>
+                                            <td>Invoice Billing</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <a href="#">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-info-circle"></i>
+                                                      </span>
+                                                    </a> 
+                                                    <a href="bankfileDetails.html">
+                                                      <span class="completion mr-2">
+                                                            <i class="fas fa-eye"></i>
+                                                      </span>
+                                                    </a>   
+                                                </div>
+                                            </td>   
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                    
 
-                </div>
-
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Body</textarea>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn_clr">Save</button>
-                          </div>
-                        </div>
-                    </div>
                 </div>
                 <!-- /.container-fluid -->
 

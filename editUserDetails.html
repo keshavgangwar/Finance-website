@@ -26,7 +26,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-         <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -39,7 +39,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="managersManagement.html">
+                <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
                 </a>
@@ -90,11 +90,11 @@
                     <span>Payments Management</span>
                 </a>
             </li>
-           <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#repoMgmt"
                     aria-expanded="true" aria-controls="repoMgmt">
                     <i class="fas fa-fw fa-file-contract"></i>
-                    <span>Content Management</span>
+                    <span>General Management</span>
                 </a>
                 <div id="repoMgmt" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
@@ -106,17 +106,46 @@
                     </div>
                 </div>
             </li>
+           <li class="nav-item">
+                <a class="nav-link" href="contentManagement.html">
+                    <i class="fas fa-fw fa-vector-square"></i>
+                    <span>Content Management</span>
+                </a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" href="reportsManagement.html">
+                <a class="nav-link" href="reportManagement.html">
                     <i class="fas fa-fw fa-file-contract"></i>
                     <span>Reports Management</span>
                 </a>
             </li>
 
-         
+           
+
+            
+
+           
+
+            
+
+           
 
             <!-- Nav Item - Utilities Collapse Menu -->
-         
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#repoMgmt"
+                    aria-expanded="true" aria-controls="repoMgmt">
+                    <i class="fas fa-fw fa-file-contract"></i>
+                    <span>General Management</span>
+                </a>
+                <div id="repoMgmt" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="JavaScript:;">Terms & Conditions</a>
+                        <a class="collapse-item" href="JavaScript:;">Privacy Policy</a>
+                        <a class="collapse-item" href="JavaScript:;">About Us</a>
+                        <a class="collapse-item" href="JavaScript:;">Contact us</a>
+                    </div>
+                </div>
+            </li>
 
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
@@ -334,13 +363,6 @@
                                <!-- Card Body -->
                                 <div class="card-body prfl_card">
                                     <div class="prfl_div">
-                                        <div class="prfl_imgDiv text-center mb-4">
-                                            <img src="img/cleint1.jpeg">
-                                        </div>
-                                        <!-- <div class="edt_icons text-center mb-4">
-                                             <a href="editProfile.html"><i class="fa fa-edit fa-sm" aria-hidden="true"></i></a>
-                                              <a href="editProfile.html"><i class="fas fa-trash fa-sm ml-3" aria-hidden="true"></i></a>
-                                        </div> -->
                                         <div class="persl_div">   
                                             <div class="prsl_feilds">
                                                 <div class="row">
@@ -352,7 +374,7 @@
                                                                         <label for="exampleInputEmail1">First Name</label>
                                                                         <input type="text" class="form-control form-control-user"
                                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                        placeholder="Kalvin"> 
+                                                                        placeholder="Kalvin">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-6">
@@ -360,7 +382,7 @@
                                                                         <label for="exampleInputEmail1">Last Name</label>
                                                                         <input type="text" class="form-control form-control-user"
                                                                             id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                            placeholder="Marry" >
+                                                                            placeholder="Marry">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -370,7 +392,7 @@
                                                                         <label for="exampleInputEmail1">Email Address</label>
                                                                         <input type="email" class="form-control form-control-user"
                                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                        placeholder="Kalvin123@gmail.com" >
+                                                                        placeholder="Kalvin123@gmail.com">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-6">
@@ -378,7 +400,7 @@
                                                                         <label for="exampleInputEmail1">Phone Number</label>
                                                                         <input type="text" class="form-control form-control-user"
                                                                             id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                            placeholder="9876543210" >
+                                                                            placeholder="9876543210">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -388,7 +410,7 @@
                                                                         <label for="exampleInputEmail1">Country</label>
                                                                         <input type="email" class="form-control form-control-user"
                                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                        placeholder="United States" >
+                                                                        placeholder="United States">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-6">
@@ -396,7 +418,7 @@
                                                                         <label for="exampleInputEmail1">Street</label>
                                                                         <input type="text" class="form-control form-control-user"
                                                                             id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                            placeholder="2" >
+                                                                            placeholder="2">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -406,7 +428,7 @@
                                                                         <label for="exampleInputEmail1">City</label>
                                                                         <input type="email" class="form-control form-control-user"
                                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                        placeholder="Mcallen" >
+                                                                        placeholder="Mcallen">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-6">
@@ -414,7 +436,7 @@
                                                                         <label for="exampleInputEmail1">State</label>
                                                                         <input type="text" class="form-control form-control-user"
                                                                             id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                            placeholder="New York" >
+                                                                            placeholder="New York">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -424,7 +446,7 @@
                                                                         <label for="exampleInputEmail1">Company Name</label>
                                                                         <input type="text" class="form-control form-control-user"
                                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                        placeholder="Global Inc." >
+                                                                        placeholder="Global Inc.">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-6">
@@ -432,7 +454,7 @@
                                                                         <label for="exampleInputEmail1">Zip code</label>
                                                                         <input type="text" class="form-control form-control-user"
                                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                                        placeholder="11357" >
+                                                                        placeholder="11357">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -460,20 +482,6 @@
                                 <div class="card-body prfl_card">
                                     <div class="servs_handling mb-4">                       
                                         <div class="servs_contnt">
-                                            <div class="addSrv"> 
-                                                <select class="form-control" id="exampleFormControlSelect1">
-                                                  <option>Invoice Discounting</option>
-                                                  <option>LPO Financing</option>
-                                                  <option>Contract Financing</option>
-                                                  <option>Import Trade Financing</option>
-                                                  <option>Consignment Stock Financing</option>
-                                                   <option>Personal Loans</option>
-                                                </select>
-                                        
-                                                <a href="#" class="btn btn_clr btn-user ml-3">
-                                                    Add Service
-                                                </a>
-                                            </div> 
                                             <div class="servs_lst">
                                                 <ul class="list-group">
                                                     <li class="list-group-item">Invoice Billing</li>
@@ -505,7 +513,7 @@
                                                     <label for="exampleInputEmail1">First Name</label>
                                                     <input type="text" class="form-control form-control-user"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="Kalvin" >
+                                                    placeholder="Kalvin">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -513,7 +521,7 @@
                                                     <label for="exampleInputEmail1">Last Name</label>
                                                     <input type="text" class="form-control form-control-user"
                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                        placeholder="Marry" >
+                                                        placeholder="Marry">
                                                 </div>
                                             </div>
                                         </div>
@@ -523,7 +531,7 @@
                                                     <label for="exampleInputEmail1">Phone Number</label>
                                                     <input type="text" class="form-control form-control-user"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="9876543210" >
+                                                    placeholder="9876543210">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -531,7 +539,7 @@
                                                     <label for="exampleInputEmail1">Nation Identification Number(NIN)</label>
                                                     <input type="text" class="form-control form-control-user"
                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                        placeholder="98675" >
+                                                        placeholder="98675">
                                                 </div>
                                             </div>
                                         </div>
@@ -541,7 +549,7 @@
                                                     <label for="exampleInputEmail1">Expiry date</label>
                                                     <input type="text" class="form-control form-control-user"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="23/11/2022" >
+                                                    placeholder="23/11/2022">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -549,7 +557,7 @@
                                                     <label for="exampleInputEmail1">Personal Address</label>
                                                     <input type="text" class="form-control form-control-user"
                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                        placeholder="883 Inverness Rd. Avon Lake, OH 44012" >
+                                                        placeholder="883 Inverness Rd. Avon Lake, OH 44012">
                                                 </div>
                                             </div>
                                         </div>
@@ -559,7 +567,7 @@
                                                     <label for="exampleInputEmail1">Living Since</label>
                                                     <input type="text" class="form-control form-control-user"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="28/2/1990" >
+                                                    placeholder="28/2/1990">
                                                 </div>
                                             </div>
                                         </div>
@@ -587,7 +595,7 @@
                                                     <label for="exampleInputEmail1">Account to borrow</label>
                                                     <input type="text" class="form-control form-control-user"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="Lorem ipsum" >
+                                                    placeholder="Lorem ipsum">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -595,7 +603,7 @@
                                                     <label for="exampleInputEmail1">How much want to borrow</label>
                                                     <input type="text" class="form-control form-control-user"
                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                        placeholder="Lorem ipsum" >
+                                                        placeholder="Lorem ipsum">
                                                 </div>
                                             </div>
                                         </div>
@@ -605,7 +613,7 @@
                                                     <label for="exampleInputEmail1">Facilty Terms</label>
                                                     <input type="text" class="form-control form-control-user"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="Lorem ipsum" >
+                                                    placeholder="Lorem ipsum">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -613,7 +621,7 @@
                                                     <label for="exampleInputEmail1">Other short term funding</label>
                                                     <input type="text" class="form-control form-control-user"
                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                        placeholder="Lorem ipsum" >
+                                                        placeholder="Lorem ipsum">
                                                 </div>
                                             </div>
                                         </div>
@@ -623,7 +631,7 @@
                                                     <label for="exampleInputEmail1">Lending Details</label>
                                                     <input type="text" class="form-control form-control-user"
                                                     id="exampleInputEmail" aria-describedby="emailHelp"
-                                                    placeholder="Lorem ipsum" >
+                                                    placeholder="Lorem ipsum">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -631,7 +639,7 @@
                                                     <label for="exampleInputEmail1">Remaining Balance</label>
                                                     <input type="text" class="form-control form-control-user"
                                                         id="exampleInputEmail" aria-describedby="emailHelp"
-                                                        placeholder="Lorem ipsum" >
+                                                        placeholder="Lorem ipsum">
                                                 </div>
                                             </div>
                                         </div>
@@ -641,7 +649,7 @@
                                     <a href="#" class="btn btn_clr btn-user mr-3">
                                         Activate Account
                                     </a>
-                                    <a href="#" class="btn btn-user dactv_btn btn-danger">
+                                    <a href="#" class="btn btn-user dactv_btn btn-danger mr-3">
                                           Deactivate Account
                                     </a>
                                 </div>

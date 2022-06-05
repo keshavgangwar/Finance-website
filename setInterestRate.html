@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Settings</title>
+    <title>Customer Details</title>
 
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -26,7 +26,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
+         <ul class="navbar-nav bckground_cover sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -49,95 +49,23 @@
             <hr class="sidebar-divider d-none d-md-block">
 
             <li class="nav-item">
-                <a class="nav-link" href="allClients.html">
+                <a class="nav-link" href="managersManagement.html">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>Clients</span>
+                    <span>Approval Requests</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="leadManagement.html">
-                    <i class="fas fa-cogs"></i>
-                    <span>Lead Management</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="serviceManagement.html">
-                    <i class="fas fa-cogs"></i>
-                    <span>Services/Tasks</span>
+                <a class="nav-link" href="userManagement.html">
+                    <i class="fas fa-users"></i>
+                    <span>Ongoing Loans</span>
                 </a>
             </li>
              <li class="nav-item">
-                <a class="nav-link" href="Track.html">
-                    <i class="fas fa-cogs"></i>
-                    <span>Track</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="documentManagement.html">
-                    <i class="fas fa-cogs"></i>
-                    <span>Document Management</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">
-                    <i class="fas fa-cogs"></i>
-                    <span>Portfolio Management</span>
-                </a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="consultationManagement.html">
-                   <i class="fas fa-handshake"></i>
-                    <span>Consultation Services</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="accountLedgers.html">
-                   <i class="far fa-money-bill-alt"></i>
-                    <span>Account Ledgers</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="paymentDue.html">
-                   <i class="far fa-money-bill-alt"></i>
-                    <span>Payment Due</span>
-                </a>
-            </li>
-           <li class="nav-item">
-                <a class="nav-link" href="Disputes.html">
-                    <i class="fas fa-fw fa-vector-square"></i>
-                    <span>Disputes</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="bankFiles.html">
-                    <i class="fas fa-fw fa-file-contract"></i>
-                    <span>Bank Files</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="savedFiles.html">
-                    <i class="fas fa-fw fa-file-contract"></i>
-                    <span>Saved Files</span>
-                </a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="settings.html">
-                    <i class="fas fa-fw fa-file-contract"></i>
+                <a class="nav-link" href="userAnalytics.html">
+                  <i class="fas fa-chart-pie"></i>
                     <span>Settings</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="login.html">
-                    <i class="fas fa-fw fa-file-contract"></i>
-                    <span>Logout</span>
-                </a>
-            </li>
-
-   
-            <!-- Nav Item - Utilities Collapse Menu -->
-           
-
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
@@ -339,103 +267,99 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Settings</h1>
-                    <div class="card shadow mb-4">
-                        <div class="card-body">
-                            <div class="rptsDiv">
-                                <div class=" box_1 p-3 mb-4 bg-white">Submit & Schedule Notation
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Send User Details
-                                    <a data-toggle="modal" data-target="#exampleModal">
-                                        <div class="icons_div">
-                                            <i class="fas fa-chevron-down"></i>
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Customer Details</h1>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="card shadow mb-4  "> 
+                               <!-- Card Body -->
+                                <div class="card-body prfl_card">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="crdtScr">
+                                                <div class="clntDtl">
+                                                    <p>
+                                                        <span>First Name</span> 
+                                                        John 
+                                                    </p>
+                                                    <p>
+                                                        <span>Last Name</span> 
+                                                        Doe 
+                                                    </p> 
+                                                     <p>
+                                                    <span>Email Address</span> 
+                                                        john.doe@gmail.com
+                                                    </p>
+                                                     <p>
+                                                        <span>Company Name</span> 
+                                                        Global Inc. 
+                                                    </p>
+                                                     <p>
+                                                        <span>Phone Number</span>
+                                                         9876543210
+                                                    </p>
+                                                    <p>
+                                                        <span>Country</span>
+                                                         Lorem ipsum dolor 
+                                                    </p>
+                                                    <p>
+                                                        <span>Street</span>
+                                                         Lorem ipsum dolor 
+                                                    </p>
+                                                    <p>
+                                                        <span>City</span>
+                                                         Lorem ipsum dolor 
+                                                    </p>
+                                                    <p>
+                                                        <span>State</span>
+                                                        Lorem ipsum dolor 
+                                                    </p>
+                                                    <p>
+                                                        <span>Zip Code</span>
+                                                         Lorem ipsum dolor 
+                                                    </p>
+                                                </div>   
+                                            </div>
                                         </div>
-                                    </a>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">E-mail to Customer
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
+                                        <div class="col-lg-6">
+                                            <div class="creditScr">
+                                                <h3>Credit Score</h3>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Set Interest Rate:</label>
+                                                    <input type="text" class="form-control form-control-user" id="IntrstRte" aria-describedby="emailHelp" placeholder="%">
+                                                </div>
+                                                 <div class="form-group">
+                                                    <label for="exampleInputEmail1">Additional Chargers:</label>
+                                                    <input type="text" class="form-control form-control-user" id="IntrstRte" aria-describedby="emailHelp" placeholder="">
+                                                </div>
+                                                 <div class="form-group">
+                                                    <label for="exampleInputEmail1">Insurance Chargers:</label>
+                                                    <input type="text" class="form-control form-control-user" id="IntrstRte" aria-describedby="emailHelp" placeholder="">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Schedule to Account
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
+                                    
+                                    <div class="apprv text-right">
+                                        <a href="#" class="btn btn_clr btn-user">Approve</a>
                                     </div>
+                                   
                                 </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Invoice Approval
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Credit Limit
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Request Client Collection Assitance
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Customer E-mail Blast
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">E-mail Verification
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Document Request
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Prospect Approval E-mail
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Statement E-mail
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                                <div class=" box_1 p-3 mb-4 bg-white">Invoice Acknowledgement to Customer
-                                    <div class="icons_div">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div> 
-                            </div>
+                             </div>
                         </div>
                     </div>
-                   
-
                 </div>
+            </div>
 
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Body</textarea>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn_clr">Save</button>
-                          </div>
-                        </div>
-                    </div>
+                    
+
+
+                    
+
                 </div>
                 <!-- /.container-fluid -->
 
@@ -446,7 +370,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; HCH Financial Services 2021</span>
+                        <span>Copyright &copy;  HCH Financial Services 2021</span>
                     </div>
                 </div>
             </footer>
@@ -491,18 +415,10 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+    <script src="js/custom.js"></script>
 
     <!-- Page level plugins -->
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/datatables-demo.js"></script>
-
-    <!-- Page level plugins -->
-  
-
+    
 </body>
 
 </html>
