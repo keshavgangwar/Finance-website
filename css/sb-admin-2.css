@@ -11377,7 +11377,7 @@ body.sidebar-toggled footer.sticky-footer {
 }
 .srv_btns{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .servs_lst a{
   color: unset;
@@ -11503,108 +11503,56 @@ input:checked + .slider:before {
   display: flex;
   justify-content: flex-end;
 }
-
-/*--------------------------Add Branch Starts ----------------------------------------*/
-
-.aaBrcnh a{
-  color: #24bec6;
-}
-.addBrnchCF .form-group{
-  margin-bottom: 30px;
-}
-.dlyRprt b, .wklyRprt b{
-  font-size: 14px;
-}
-/*--------------------------Add Branch Ends ----------------------------------------*/
-/*--------------------------vIEW OTEHR bRANCH Starts ----------------------------------------*/
-.upcoming_stone{
-  padding: 16px;
-}
-/*--------------------------vIEW OTEHR bRANCH Ends ----------------------------------------*/
-
-/*--------------------------Home branch Starts ----------------------------------------*/
-.opnPd{
- display: flex;
- justify-content: space-around;
-}
-.weekgl {
-    font-size: 14px;
-    color: #24bec6 ! important;
-    font-weight: 600;
-}
-.progress {
-    height: 7px ! important;
-    margin-bottom: 30px;
-}
-.prgLbl span {
-    font-size: 12px;
-    color: #060606;
-    font-weight: 600;
-}
-.flxbtns{
-  display: flex;
-  justify-content: space-between;
-}
-.tltSbt{
-  display: flex;
-  justify-content: space-between;
-}
-#chartdiv1 {
-  width: 100%;
-  height: 300px;
-}
-.smsChrgs .snm{
-  text-align: right;
-}
-.smsCrdtCrd{
+.fgetPswd {
   padding: 15px;
 }
-.smsCrdtCrd h6{
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 20px;
+.cltImg{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-/*--------------------------Home Branch Ends ----------------------------------------*/
-
-/*--------------------------Cash Flow Starts ----------------------------------------*/
-.recpts .list-group-item{
-  border: unset;
+.clntDtl span{
+  display: inline-block;
+  width: 250px;
 }
-.recptH{
-  border-bottom: 1px solid rgba(0,0,0,.125) ! important;
+.clntDtl{
+  padding: 20px;
 }
-/*--------------------------Cash flow Ends ----------------------------------------*/
-/*--------------------------Add Loan Starts ----------------------------------------*/
-
-.addLoanRow .subHead{
-  padding-left: 12px;
-}
-.addLoanRow .btn-primary{
-  background-color: #939294 ! important;
-  border-color: #939294 ! important;
-}
-.addLoanAccrd .btn{
-  font-size: 12px;
-}
-#demo3_23 .btn-primary{
-  background-color: #939294 ! important;
-  border-color: #939294 ! important;
-}
-.addLoan .btn-link{
-  font-size: 14px;
-  color: #000;
-}
-.prss i{
-  font-size: 11px;
-  color: #00DB1A;
-}
-/*--------------------------Add Loan Ends ----------------------------------------*/
-
-
-/*---------------------Reports Management----------------------------*/
-
-.box_1{
+.crdtScr{
   display: flex;
-  justify-content: space-between;
-  box-shadow: 0 1px 11px 0 rgb(0 0 0 / 12%);
+}
+.creditScr{
+  margin-left: 127px;
+  padding-top: 20px;
+}
+.prslDtl i{
+  font-size: 10px;
+  color: #24bec6;
+}
+.prsnl_card .clntDtl{
+  border-right: 2px #9194A6 dashed; 
+}
+.mngDtl{
+  justify-content: space-between; 
+}
+.mngDtl a{
+  text-decoration: underline;
+}
+.dcsImg img{
+  width: 80px;
+  height: 80px;
+}
+.pymntSts i{
+  font-size: 8px;
+  color: #24bec6;
+}
+.pymntSts .form-control{
+  width: 42%;
+}
+.IntrstRte select{
+  color: #858796;
+}
+.intrstRate{
+  text-align: right;
 }
